@@ -1,0 +1,23 @@
+C:\Users\paulz\Documents\Visual Studio 2022\bdd\bases dist\bin\Debug\net8.0-windows\bases dist.exe
+C:\Users\paulz\Documents\Visual Studio 2022\bdd\bases dist\bin\Debug\net8.0-windows\bases dist.deps.json
+C:\Users\paulz\Documents\Visual Studio 2022\bdd\bases dist\bin\Debug\net8.0-windows\bases dist.runtimeconfig.json
+C:\Users\paulz\Documents\Visual Studio 2022\bdd\bases dist\bin\Debug\net8.0-windows\bases dist.dll
+C:\Users\paulz\Documents\Visual Studio 2022\bdd\bases dist\bin\Debug\net8.0-windows\bases dist.pdb
+C:\Users\paulz\Documents\Visual Studio 2022\bdd\bases dist\obj\Debug\net8.0-windows\bases_dist.formInterfaz.resources
+C:\Users\paulz\Documents\Visual Studio 2022\bdd\bases dist\obj\Debug\net8.0-windows\bases dist.csproj.GenerateResource.cache
+C:\Users\paulz\Documents\Visual Studio 2022\bdd\bases dist\obj\Debug\net8.0-windows\bases dist.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\paulz\Documents\Visual Studio 2022\bdd\bases dist\obj\Debug\net8.0-windows\bases dist.AssemblyInfoInputs.cache
+C:\Users\paulz\Documents\Visual Studio 2022\bdd\bases dist\obj\Debug\net8.0-windows\bases dist.AssemblyInfo.cs
+C:\Users\paulz\Documents\Visual Studio 2022\bdd\bases dist\obj\Debug\net8.0-windows\bases dist.csproj.CoreCompileInputs.cache
+C:\Users\paulz\Documents\Visual Studio 2022\bdd\bases dist\obj\Debug\net8.0-windows\bases dist.dll
+C:\Users\paulz\Documents\Visual Studio 2022\bdd\bases dist\obj\Debug\net8.0-windows\refint\bases dist.dll
+C:\Users\paulz\Documents\Visual Studio 2022\bdd\bases dist\obj\Debug\net8.0-windows\bases dist.pdb
+C:\Users\paulz\Documents\Visual Studio 2022\bdd\bases dist\obj\Debug\net8.0-windows\bases dist.genruntimeconfig.cache
+C:\Users\paulz\Documents\Visual Studio 2022\bdd\bases dist\obj\Debug\net8.0-windows\ref\bases dist.dll
+C:\Users\paulz\Documents\Visual Studio 2022\bdd\bases dist\bin\Debug\net8.0-windows\Oracle.ManagedDataAccess.dll
+C:\Users\paulz\Documents\Visual Studio 2022\bdd\bases dist\obj\Debug\net8.0-windows\bases dist.csproj.AssemblyReference.cache
+C:\Users\paulz\Documents\Visual Studio 2022\bdd\bases dist\obj\Debug\net8.0-windows\bases dist.csproj.Up2Date
+C:\Users\paulz\Documents\Visual Studio 2022\bdd\bases dist\bin\Debug\net8.0-windows\System.DirectoryServices.Protocols.dll
+C:\Users\paulz\Documents\Visual Studio 2022\bdd\bases dist\bin\Debug\net8.0-windows\runtimes\linux\lib\net8.0\System.DirectoryServices.Protocols.dll
+C:\Users\paulz\Documents\Visual Studio 2022\bdd\bases dist\bin\Debug\net8.0-windows\runtimes\osx\lib\net8.0\System.DirectoryServices.Protocols.dll
+C:\Users\paulz\Documents\Visual Studio 2022\bdd\bases dist\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.DirectoryServices.Protocols.dll
