@@ -13,7 +13,8 @@ namespace bases_dist
 {
     public partial class formInterfaz : Form
     {
-        OracleConnection conn = new OracleConnection("DATA SOURCE=(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=lenovoflex)(PORT=1521)))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=orcl))); USER ID=ORA1; PASSWORD=ORACLE; CONNECTION TIMEOUT=120;");
+        //string DataSource = "(DESCRIPTION = (ADDRESS_LIST = (ADDRESS = (PROTOCOL = TCP)(HOST = localhost)(PORT = 1521))) (CONNECT_DATA = (SERVER = DEDICATED) (SERVICE_NAME = orcl)))";
+        OracleConnection conn = new OracleConnection($"DATA SOURCE=(DESCRIPTION = (ADDRESS_LIST = (ADDRESS = (PROTOCOL = TCP)(HOST = localhost)(PORT = 1521))) (CONNECT_DATA = (SERVER = DEDICATED) (SERVICE_NAME = orcl))); USER ID=ORA1; PASSWORD=ORACLE; CONNECTION TIMEOUT=120;");
 
         public formInterfaz()
         {
