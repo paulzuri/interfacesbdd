@@ -171,6 +171,30 @@
             textBox6 = new TextBox();
             textBox7 = new TextBox();
             button1 = new Button();
+            tabPage15 = new TabPage();
+            tabPage20 = new TabPage();
+            tabPage26 = new TabPage();
+            tabPage28 = new TabPage();
+            tabPage29 = new TabPage();
+            tabPage30 = new TabPage();
+            label42 = new Label();
+            dataGridView17 = new DataGridView();
+            button8 = new Button();
+            label43 = new Label();
+            dataGridView18 = new DataGridView();
+            button13 = new Button();
+            button15 = new Button();
+            label44 = new Label();
+            dataGridView19 = new DataGridView();
+            label45 = new Label();
+            dataGridView20 = new DataGridView();
+            button16 = new Button();
+            label46 = new Label();
+            dataGridView21 = new DataGridView();
+            button17 = new Button();
+            label47 = new Label();
+            dataGridView22 = new DataGridView();
+            Actualizar = new Button();
             tabControlCRUD.SuspendLayout();
             tabPage1.SuspendLayout();
             tabControl2.SuspendLayout();
@@ -222,6 +246,18 @@
             ((System.ComponentModel.ISupportInitialize)dataGridView5).BeginInit();
             tabPage9.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dataGridView11).BeginInit();
+            tabPage15.SuspendLayout();
+            tabPage20.SuspendLayout();
+            tabPage26.SuspendLayout();
+            tabPage28.SuspendLayout();
+            tabPage29.SuspendLayout();
+            tabPage30.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)dataGridView17).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)dataGridView18).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)dataGridView19).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)dataGridView20).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)dataGridView21).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)dataGridView22).BeginInit();
             SuspendLayout();
             // 
             // labelTitulo
@@ -806,6 +842,12 @@
             tabControl1.Controls.Add(tabPage6);
             tabControl1.Controls.Add(tabPage14);
             tabControl1.Controls.Add(tabPage16);
+            tabControl1.Controls.Add(tabPage15);
+            tabControl1.Controls.Add(tabPage20);
+            tabControl1.Controls.Add(tabPage26);
+            tabControl1.Controls.Add(tabPage28);
+            tabControl1.Controls.Add(tabPage29);
+            tabControl1.Controls.Add(tabPage30);
             tabControl1.Location = new Point(28, 33);
             tabControl1.Name = "tabControl1";
             tabControl1.SelectedIndex = 0;
@@ -822,7 +864,7 @@
             tabPage5.Padding = new Padding(3);
             tabPage5.Size = new Size(788, 408);
             tabPage5.TabIndex = 0;
-            tabPage5.Text = "Tienda";
+            tabPage5.Text = "Sucursales";
             tabPage5.UseVisualStyleBackColor = true;
             // 
             // button5
@@ -831,17 +873,17 @@
             button5.Name = "button5";
             button5.Size = new Size(176, 23);
             button5.TabIndex = 2;
-            button5.Text = "Actualizar tienda";
+            button5.Text = "Actualizar";
             button5.UseVisualStyleBackColor = true;
             // 
             // label28
             // 
             label28.AutoSize = true;
-            label28.Location = new Point(301, 43);
+            label28.Location = new Point(328, 44);
             label28.Name = "label28";
-            label28.Size = new Size(163, 15);
+            label28.Size = new Size(116, 15);
             label28.TabIndex = 1;
-            label28.Text = "Actualizar la tienda 1 (master)";
+            label28.Text = "Actualizar sucursales";
             // 
             // dataGridView2
             // 
@@ -861,7 +903,7 @@
             tabPage6.Padding = new Padding(3);
             tabPage6.Size = new Size(788, 408);
             tabPage6.TabIndex = 1;
-            tabPage6.Text = "Pago";
+            tabPage6.Text = "Empleados";
             tabPage6.UseVisualStyleBackColor = true;
             // 
             // button6
@@ -870,7 +912,7 @@
             button6.Name = "button6";
             button6.Size = new Size(156, 23);
             button6.TabIndex = 2;
-            button6.Text = "Actualizar pago";
+            button6.Text = "Actualizar empleados";
             button6.UseVisualStyleBackColor = true;
             // 
             // dataGridView3
@@ -884,11 +926,11 @@
             // label29
             // 
             label29.AutoSize = true;
-            label29.Location = new Point(253, 47);
+            label29.Location = new Point(324, 44);
             label29.Name = "label29";
-            label29.Size = new Size(221, 15);
+            label29.Size = new Size(120, 15);
             label29.TabIndex = 0;
-            label29.Text = "Actualizar el pago de la tienda 1 (master)";
+            label29.Text = "Actualizar empleados";
             // 
             // tabPage14
             // 
@@ -899,7 +941,7 @@
             tabPage14.Name = "tabPage14";
             tabPage14.Size = new Size(788, 408);
             tabPage14.TabIndex = 2;
-            tabPage14.Text = "Producto";
+            tabPage14.Text = "Facturas";
             tabPage14.UseVisualStyleBackColor = true;
             // 
             // button7
@@ -908,7 +950,7 @@
             button7.Name = "button7";
             button7.Size = new Size(179, 23);
             button7.TabIndex = 2;
-            button7.Text = "Actualizar producto";
+            button7.Text = "Actualizar";
             button7.UseVisualStyleBackColor = true;
             // 
             // dataGridView4
@@ -922,11 +964,11 @@
             // label30
             // 
             label30.AutoSize = true;
-            label30.Location = new Point(274, 32);
+            label30.Location = new Point(340, 35);
             label30.Name = "label30";
-            label30.Size = new Size(254, 15);
+            label30.Size = new Size(104, 15);
             label30.TabIndex = 0;
-            label30.Text = "Actualizar los productos de la tienda 1 (master)";
+            label30.Text = "Actualizar facturas";
             // 
             // tabPage16
             // 
@@ -937,16 +979,16 @@
             tabPage16.Name = "tabPage16";
             tabPage16.Size = new Size(788, 408);
             tabPage16.TabIndex = 4;
-            tabPage16.Text = "Orden";
+            tabPage16.Text = "Clientes";
             tabPage16.UseVisualStyleBackColor = true;
             // 
             // button9
             // 
-            button9.Location = new Point(327, 326);
+            button9.Location = new Point(317, 262);
             button9.Name = "button9";
             button9.Size = new Size(150, 23);
             button9.TabIndex = 2;
-            button9.Text = "Actualizar orden";
+            button9.Text = "Actualizar clientes";
             button9.UseVisualStyleBackColor = true;
             // 
             // dataGridView6
@@ -960,11 +1002,11 @@
             // label32
             // 
             label32.AutoSize = true;
-            label32.Location = new Point(236, 34);
+            label32.Location = new Point(342, 38);
             label32.Name = "label32";
-            label32.Size = new Size(241, 15);
+            label32.Size = new Size(102, 15);
             label32.TabIndex = 0;
-            label32.Text = "Actualizar las órdenes de la tienda 1 (master)";
+            label32.Text = "Actualizar clientes";
             // 
             // tabPage7
             // 
@@ -1625,6 +1667,234 @@
             button1.Text = "Crear relación producto y pago";
             button1.UseVisualStyleBackColor = true;
             // 
+            // tabPage15
+            // 
+            tabPage15.Controls.Add(button8);
+            tabPage15.Controls.Add(dataGridView17);
+            tabPage15.Controls.Add(label42);
+            tabPage15.Location = new Point(4, 24);
+            tabPage15.Name = "tabPage15";
+            tabPage15.Size = new Size(788, 408);
+            tabPage15.TabIndex = 5;
+            tabPage15.Text = "Productos Facturas";
+            tabPage15.UseVisualStyleBackColor = true;
+            // 
+            // tabPage20
+            // 
+            tabPage20.Controls.Add(button13);
+            tabPage20.Controls.Add(dataGridView18);
+            tabPage20.Controls.Add(label43);
+            tabPage20.Location = new Point(4, 24);
+            tabPage20.Name = "tabPage20";
+            tabPage20.Size = new Size(788, 408);
+            tabPage20.TabIndex = 6;
+            tabPage20.Text = "Productos";
+            tabPage20.UseVisualStyleBackColor = true;
+            // 
+            // tabPage26
+            // 
+            tabPage26.Controls.Add(dataGridView19);
+            tabPage26.Controls.Add(label44);
+            tabPage26.Controls.Add(button15);
+            tabPage26.Location = new Point(4, 24);
+            tabPage26.Name = "tabPage26";
+            tabPage26.Size = new Size(788, 408);
+            tabPage26.TabIndex = 7;
+            tabPage26.Text = "Categorías";
+            tabPage26.UseVisualStyleBackColor = true;
+            // 
+            // tabPage28
+            // 
+            tabPage28.Controls.Add(button16);
+            tabPage28.Controls.Add(dataGridView20);
+            tabPage28.Controls.Add(label45);
+            tabPage28.Location = new Point(4, 24);
+            tabPage28.Name = "tabPage28";
+            tabPage28.Size = new Size(788, 408);
+            tabPage28.TabIndex = 8;
+            tabPage28.Text = "Productos pedidos";
+            tabPage28.UseVisualStyleBackColor = true;
+            // 
+            // tabPage29
+            // 
+            tabPage29.Controls.Add(button17);
+            tabPage29.Controls.Add(dataGridView21);
+            tabPage29.Controls.Add(label46);
+            tabPage29.Location = new Point(4, 24);
+            tabPage29.Name = "tabPage29";
+            tabPage29.Size = new Size(788, 408);
+            tabPage29.TabIndex = 9;
+            tabPage29.Text = "Pedidos";
+            tabPage29.UseVisualStyleBackColor = true;
+            // 
+            // tabPage30
+            // 
+            tabPage30.Controls.Add(Actualizar);
+            tabPage30.Controls.Add(dataGridView22);
+            tabPage30.Controls.Add(label47);
+            tabPage30.Location = new Point(4, 24);
+            tabPage30.Name = "tabPage30";
+            tabPage30.Size = new Size(788, 408);
+            tabPage30.TabIndex = 10;
+            tabPage30.Text = "Proveedores";
+            tabPage30.UseVisualStyleBackColor = true;
+            // 
+            // label42
+            // 
+            label42.AutoSize = true;
+            label42.Location = new Point(314, 52);
+            label42.Name = "label42";
+            label42.Size = new Size(161, 15);
+            label42.TabIndex = 0;
+            label42.Text = "Actualizar productos facturas";
+            // 
+            // dataGridView17
+            // 
+            dataGridView17.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridView17.Location = new Point(101, 89);
+            dataGridView17.Name = "dataGridView17";
+            dataGridView17.Size = new Size(618, 150);
+            dataGridView17.TabIndex = 1;
+            // 
+            // button8
+            // 
+            button8.Location = new Point(356, 266);
+            button8.Name = "button8";
+            button8.Size = new Size(75, 23);
+            button8.TabIndex = 2;
+            button8.Text = "Actualizar";
+            button8.UseVisualStyleBackColor = true;
+            // 
+            // label43
+            // 
+            label43.AutoSize = true;
+            label43.Location = new Point(299, 38);
+            label43.Name = "label43";
+            label43.Size = new Size(116, 15);
+            label43.TabIndex = 0;
+            label43.Text = "Actualizar productos";
+            // 
+            // dataGridView18
+            // 
+            dataGridView18.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridView18.Location = new Point(73, 93);
+            dataGridView18.Name = "dataGridView18";
+            dataGridView18.Size = new Size(660, 150);
+            dataGridView18.TabIndex = 1;
+            // 
+            // button13
+            // 
+            button13.Location = new Point(337, 270);
+            button13.Name = "button13";
+            button13.Size = new Size(75, 23);
+            button13.TabIndex = 2;
+            button13.Text = "Actualizar";
+            button13.UseVisualStyleBackColor = true;
+            // 
+            // button15
+            // 
+            button15.Location = new Point(339, 265);
+            button15.Name = "button15";
+            button15.Size = new Size(75, 23);
+            button15.TabIndex = 0;
+            button15.Text = "Actualizar";
+            button15.UseVisualStyleBackColor = true;
+            // 
+            // label44
+            // 
+            label44.AutoSize = true;
+            label44.Location = new Point(316, 49);
+            label44.Name = "label44";
+            label44.Size = new Size(116, 15);
+            label44.TabIndex = 1;
+            label44.Text = "Actualizar categorías";
+            // 
+            // dataGridView19
+            // 
+            dataGridView19.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridView19.Location = new Point(72, 88);
+            dataGridView19.Name = "dataGridView19";
+            dataGridView19.Size = new Size(637, 150);
+            dataGridView19.TabIndex = 2;
+            // 
+            // label45
+            // 
+            label45.AutoSize = true;
+            label45.Location = new Point(320, 45);
+            label45.Name = "label45";
+            label45.Size = new Size(161, 15);
+            label45.TabIndex = 0;
+            label45.Text = "Actualizar productos pedidos";
+            // 
+            // dataGridView20
+            // 
+            dataGridView20.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridView20.Location = new Point(87, 88);
+            dataGridView20.Name = "dataGridView20";
+            dataGridView20.Size = new Size(634, 150);
+            dataGridView20.TabIndex = 1;
+            // 
+            // button16
+            // 
+            button16.Location = new Point(355, 268);
+            button16.Name = "button16";
+            button16.Size = new Size(75, 23);
+            button16.TabIndex = 2;
+            button16.Text = "Actualizar";
+            button16.UseVisualStyleBackColor = true;
+            // 
+            // label46
+            // 
+            label46.AutoSize = true;
+            label46.Location = new Point(340, 39);
+            label46.Name = "label46";
+            label46.Size = new Size(104, 15);
+            label46.TabIndex = 0;
+            label46.Text = "Actualizar pedidos";
+            // 
+            // dataGridView21
+            // 
+            dataGridView21.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridView21.Location = new Point(73, 95);
+            dataGridView21.Name = "dataGridView21";
+            dataGridView21.Size = new Size(655, 150);
+            dataGridView21.TabIndex = 1;
+            // 
+            // button17
+            // 
+            button17.Location = new Point(359, 278);
+            button17.Name = "button17";
+            button17.Size = new Size(75, 23);
+            button17.TabIndex = 2;
+            button17.Text = "Actualizar";
+            button17.UseVisualStyleBackColor = true;
+            // 
+            // label47
+            // 
+            label47.AutoSize = true;
+            label47.Location = new Point(332, 41);
+            label47.Name = "label47";
+            label47.Size = new Size(127, 15);
+            label47.TabIndex = 0;
+            label47.Text = "Actualizar proveedores";
+            // 
+            // dataGridView22
+            // 
+            dataGridView22.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridView22.Location = new Point(144, 85);
+            dataGridView22.Name = "dataGridView22";
+            dataGridView22.Size = new Size(525, 150);
+            dataGridView22.TabIndex = 1;
+            // 
+            // Actualizar
+            // 
+            Actualizar.Location = new Point(363, 264);
+            Actualizar.Name = "Actualizar";
+            Actualizar.Size = new Size(75, 23);
+            Actualizar.TabIndex = 2;
+            Actualizar.Text = "Actualizar";
+            Actualizar.UseVisualStyleBackColor = true;
+            // 
             // formInterfaz
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -1710,6 +1980,24 @@
             tabPage9.ResumeLayout(false);
             tabPage9.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)dataGridView11).EndInit();
+            tabPage15.ResumeLayout(false);
+            tabPage15.PerformLayout();
+            tabPage20.ResumeLayout(false);
+            tabPage20.PerformLayout();
+            tabPage26.ResumeLayout(false);
+            tabPage26.PerformLayout();
+            tabPage28.ResumeLayout(false);
+            tabPage28.PerformLayout();
+            tabPage29.ResumeLayout(false);
+            tabPage29.PerformLayout();
+            tabPage30.ResumeLayout(false);
+            tabPage30.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)dataGridView17).EndInit();
+            ((System.ComponentModel.ISupportInitialize)dataGridView18).EndInit();
+            ((System.ComponentModel.ISupportInitialize)dataGridView19).EndInit();
+            ((System.ComponentModel.ISupportInitialize)dataGridView20).EndInit();
+            ((System.ComponentModel.ISupportInitialize)dataGridView21).EndInit();
+            ((System.ComponentModel.ISupportInitialize)dataGridView22).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -1859,5 +2147,29 @@
         private RadioButton radioButton17;
         private RadioButton radioButton16;
         private Label label36;
+        private TabPage tabPage15;
+        private Button button8;
+        private DataGridView dataGridView17;
+        private Label label42;
+        private TabPage tabPage20;
+        private Button button13;
+        private DataGridView dataGridView18;
+        private Label label43;
+        private TabPage tabPage26;
+        private DataGridView dataGridView19;
+        private Label label44;
+        private Button button15;
+        private TabPage tabPage28;
+        private Label label45;
+        private TabPage tabPage29;
+        private TabPage tabPage30;
+        private Button button16;
+        private DataGridView dataGridView20;
+        private Button button17;
+        private DataGridView dataGridView21;
+        private Label label46;
+        private Button Actualizar;
+        private DataGridView dataGridView22;
+        private Label label47;
     }
 }
