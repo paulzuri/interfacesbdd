@@ -31,56 +31,67 @@
             labelTitulo = new Label();
             tabControlCRUD = new TabControl();
             tabPage1 = new TabPage();
-            tabControl2 = new TabControl();
-            tabPage3 = new TabPage();
-            label1 = new Label();
-            dataGridView1 = new DataGridView();
-            tabPage4 = new TabPage();
+            tcTablas = new TabControl();
+            tpSucursales = new TabPage();
+            txtCiudadSucursales = new TextBox();
+            lblCiudadSucursales = new Label();
+            txtDireccionSucursales = new TextBox();
+            lblDireccionSucursales = new Label();
+            txtNombreSucursales = new TextBox();
+            lblNombreSucursales = new Label();
+            txtSucursalIdSucursales = new TextBox();
+            lblIdSucursalSucursales = new Label();
+            btnCrearSucursales = new Button();
+            tpEmpleados = new TabPage();
+            txtSucursalIdEmpleados = new TextBox();
+            lblIdSucursalEmpleados = new Label();
+            txtCargoEmpleados = new TextBox();
+            lblCargoEmpleados = new Label();
+            txtNombreEmpleados = new TextBox();
+            lblNombreEmpleados = new Label();
+            txtEmpleadoIdEmpleados = new TextBox();
+            lblIdEmpleadoEmpleados = new Label();
+            btnCrearEmpleados = new Button();
+            tpFacturas = new TabPage();
+
             panel1 = new Panel();
-            textBox5 = new TextBox();
-            label8 = new Label();
-            label7 = new Label();
-            label6 = new Label();
-            label5 = new Label();
-            textBox4 = new TextBox();
-            textBox3 = new TextBox();
-            textBox2 = new TextBox();
-            textBox1 = new TextBox();
-            label4 = new Label();
-            buttonPago = new Button();
-            tBoxFactura = new TextBox();
-            label3 = new Label();
-            label2 = new Label();
-            tabPage10 = new TabPage();
-            label17 = new Label();
+            txtSucursalIdFacturas = new TextBox();
+            lblSucursalIdFacturas = new Label();
+            lblEmpleadoIdFacturas = new Label();
+            lblClienteIdFacturas = new Label();
+            lblTotalFacturas = new Label();
+            txtEmpleadoIdFacturas = new TextBox();
+            txtClienteIdFacturas = new TextBox();
+            txtTotalFacturas = new TextBox();
+            txtFechaFacturas = new TextBox();
+            lblFechaFacturas = new Label();
+            btnCrearFacturas = new Button();
+            txtFacturaIdFacturas = new TextBox();
+            lblFacturaIdFacturas = new Label();
+            lblFacturas = new Label();
+            tpClientes = new TabPage();
+            lblClientesClientes = new Label();
             panel2 = new Panel();
-            textBox13 = new TextBox();
-            textBox12 = new TextBox();
-            button3 = new Button();
-            label19 = new Label();
-            label18 = new Label();
             label9 = new Label();
-            tabPage11 = new TabPage();
+            tpProductosFacturas = new TabPage();
             panel3 = new Panel();
-            textBox11 = new TextBox();
-            textBox10 = new TextBox();
-            textBox9 = new TextBox();
-            textBox8 = new TextBox();
-            button2 = new Button();
-            label16 = new Label();
+            txtFacturaIdProductosFacturas = new TextBox();
+            txtProductoIdProductosFacturas = new TextBox();
+            txtItemIdProductosFacturas = new TextBox();
+            btnCrearProductosFacturas = new Button();
             label15 = new Label();
             label14 = new Label();
             label13 = new Label();
             label12 = new Label();
-            tabPage13 = new TabPage();
+            tpProductos = new TabPage();
             panel5 = new Panel();
-            button4 = new Button();
-            textBox20 = new TextBox();
-            textBox19 = new TextBox();
-            textBox18 = new TextBox();
-            textBox16 = new TextBox();
-            textBox15 = new TextBox();
-            textBox14 = new TextBox();
+            btnCrearProductos = new Button();
+            txtProductosIdProductos = new TextBox();
+            txtStockProductos = new TextBox();
+            txtCategoriaIdProductos = new TextBox();
+            txtPrecioProductos = new TextBox();
+            txtNombreProductos = new TextBox();
+            txtProductoIdProductos = new TextBox();
             label27 = new Label();
             label26 = new Label();
             label25 = new Label();
@@ -88,6 +99,10 @@
             label22 = new Label();
             label21 = new Label();
             label20 = new Label();
+            tpCategorias = new TabPage();
+            tpProductosPedidos = new TabPage();
+            tpPedidos = new TabPage();
+            tpProveedores = new TabPage();
             tabPage2 = new TabPage();
             tabControl1 = new TabControl();
             tabPage5 = new TabPage();
@@ -171,43 +186,65 @@
             textBox6 = new TextBox();
             textBox7 = new TextBox();
             button1 = new Button();
-            tabPage15 = new TabPage();
-            tabPage20 = new TabPage();
-            tabPage26 = new TabPage();
-            tabPage28 = new TabPage();
-            tabPage29 = new TabPage();
-            tabPage30 = new TabPage();
+
+            cmbCiudad = new ComboBox();
+            txtTelefonoClientes = new TextBox();
+            label1 = new Label();
+            txtCorreoClientes = new TextBox();
+            label2 = new Label();
+            txtNombreClientes = new TextBox();
+            label3 = new Label();
+            txtClienteIdClientes = new TextBox();
+            label4 = new Label();
+            btnCrearClientes = new Button();
+            txtNombreCategorias = new TextBox();
+            label5 = new Label();
+            txtCategoriaIdCategorias = new TextBox();
+            label6 = new Label();
+            btnCrearCategorias = new Button();
+            txtCantidadProductoProductosPedidos = new TextBox();
+            label7 = new Label();
+            txtProductoIdProductosPedidos = new TextBox();
+            label8 = new Label();
+            txtPedidoIdProductosPedidos = new TextBox();
+            label16 = new Label();
+            txtItemIdProductosPedidos = new TextBox();
+            label17 = new Label();
+            btnCrearProductosPedidos = new Button();
+            txtProveedorIdPedidos = new TextBox();
+            label18 = new Label();
+            txtTotalPedidos = new TextBox();
+            label19 = new Label();
+            txtFechaPedidos = new TextBox();
             label42 = new Label();
-            dataGridView17 = new DataGridView();
-            button8 = new Button();
+            txtPedidoIdPedidos = new TextBox();
             label43 = new Label();
-            dataGridView18 = new DataGridView();
-            button13 = new Button();
-            button15 = new Button();
-            label44 = new Label();
-            dataGridView19 = new DataGridView();
+            btnCrearPedidos = new Button();
+            txtContactoProveedores = new TextBox();
             label45 = new Label();
-            dataGridView20 = new DataGridView();
-            button16 = new Button();
+            txtNombreProveedores = new TextBox();
             label46 = new Label();
-            dataGridView21 = new DataGridView();
-            button17 = new Button();
+            txtProveedorIdProveedores = new TextBox();
             label47 = new Label();
-            dataGridView22 = new DataGridView();
-            Actualizar = new Button();
+            btnCrearProveedores = new Button();
+
             tabControlCRUD.SuspendLayout();
             tabPage1.SuspendLayout();
-            tabControl2.SuspendLayout();
-            tabPage3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
-            tabPage4.SuspendLayout();
+            tcTablas.SuspendLayout();
+            tpSucursales.SuspendLayout();
+            tpEmpleados.SuspendLayout();
+            tpFacturas.SuspendLayout();
             panel1.SuspendLayout();
-            tabPage10.SuspendLayout();
+            tpClientes.SuspendLayout();
             panel2.SuspendLayout();
-            tabPage11.SuspendLayout();
+            tpProductosFacturas.SuspendLayout();
             panel3.SuspendLayout();
-            tabPage13.SuspendLayout();
+            tpProductos.SuspendLayout();
             panel5.SuspendLayout();
+            tpCategorias.SuspendLayout();
+            tpProductosPedidos.SuspendLayout();
+            tpPedidos.SuspendLayout();
+            tpProveedores.SuspendLayout();
             tabPage2.SuspendLayout();
             tabControl1.SuspendLayout();
             tabPage5.SuspendLayout();
@@ -285,7 +322,7 @@
             // 
             // tabPage1
             // 
-            tabPage1.Controls.Add(tabControl2);
+            tabPage1.Controls.Add(tcTablas);
             tabPage1.Location = new Point(4, 24);
             tabPage1.Name = "tabPage1";
             tabPage1.Padding = new Padding(3);
@@ -294,272 +331,396 @@
             tabPage1.Text = "Crear";
             tabPage1.UseVisualStyleBackColor = true;
             // 
-            // tabControl2
+
+            // tcTablas
             // 
-            tabControl2.Controls.Add(tabPage3);
-            tabControl2.Controls.Add(tabPage4);
-            tabControl2.Controls.Add(tabPage10);
-            tabControl2.Controls.Add(tabPage11);
-            tabControl2.Controls.Add(tabPage13);
-            tabControl2.Location = new Point(6, 6);
-            tabControl2.Name = "tabControl2";
-            tabControl2.SelectedIndex = 0;
-            tabControl2.Size = new Size(847, 475);
-            tabControl2.TabIndex = 0;
+            tcTablas.Controls.Add(tpSucursales);
+            tcTablas.Controls.Add(tpEmpleados);
+            tcTablas.Controls.Add(tpFacturas);
+            tcTablas.Controls.Add(tpClientes);
+            tcTablas.Controls.Add(tpProductosFacturas);
+            tcTablas.Controls.Add(tpProductos);
+            tcTablas.Controls.Add(tpCategorias);
+            tcTablas.Controls.Add(tpProductosPedidos);
+            tcTablas.Controls.Add(tpPedidos);
+            tcTablas.Controls.Add(tpProveedores);
+            tcTablas.Location = new Point(6, 6);
+            tcTablas.Name = "tcTablas";
+            tcTablas.SelectedIndex = 0;
+            tcTablas.Size = new Size(847, 475);
+            tcTablas.TabIndex = 0;
             // 
-            // tabPage3
+            // tpSucursales
             // 
-            tabPage3.Controls.Add(label1);
-            tabPage3.Controls.Add(dataGridView1);
-            tabPage3.Location = new Point(4, 24);
-            tabPage3.Name = "tabPage3";
-            tabPage3.Padding = new Padding(3);
-            tabPage3.Size = new Size(839, 447);
-            tabPage3.TabIndex = 0;
-            tabPage3.Text = "Tienda";
-            tabPage3.UseVisualStyleBackColor = true;
+            tpSucursales.Controls.Add(txtCiudadSucursales);
+            tpSucursales.Controls.Add(lblCiudadSucursales);
+            tpSucursales.Controls.Add(txtDireccionSucursales);
+            tpSucursales.Controls.Add(lblDireccionSucursales);
+            tpSucursales.Controls.Add(txtNombreSucursales);
+            tpSucursales.Controls.Add(lblNombreSucursales);
+            tpSucursales.Controls.Add(txtSucursalIdSucursales);
+            tpSucursales.Controls.Add(lblIdSucursalSucursales);
+            tpSucursales.Controls.Add(btnCrearSucursales);
+            tpSucursales.Location = new Point(4, 24);
+            tpSucursales.Name = "tpSucursales";
+            tpSucursales.Padding = new Padding(3);
+            tpSucursales.Size = new Size(839, 447);
+            tpSucursales.TabIndex = 0;
+            tpSucursales.Text = "Sucursales";
+            tpSucursales.UseVisualStyleBackColor = true;
             // 
-            // label1
+            // txtCiudadSucursales
             // 
-            label1.AutoSize = true;
-            label1.Location = new Point(197, 41);
-            label1.Name = "label1";
-            label1.Size = new Size(405, 15);
-            label1.TabIndex = 1;
-            label1.Text = "Tabla de tienda 1 (master) es única y no se puede crear más porque es única";
+            txtCiudadSucursales.Location = new Point(173, 201);
+            txtCiudadSucursales.Name = "txtCiudadSucursales";
+            txtCiudadSucursales.Size = new Size(237, 23);
+            txtCiudadSucursales.TabIndex = 10;
             // 
-            // dataGridView1
+            // lblCiudadSucursales
             // 
-            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location = new Point(32, 78);
-            dataGridView1.Name = "dataGridView1";
-            dataGridView1.Size = new Size(772, 150);
-            dataGridView1.TabIndex = 0;
-            dataGridView1.CellContentClick += dataGridView1_CellContentClick;
+            lblCiudadSucursales.AutoSize = true;
+            lblCiudadSucursales.Location = new Point(69, 209);
+            lblCiudadSucursales.Name = "lblCiudadSucursales";
+            lblCiudadSucursales.Size = new Size(45, 15);
+            lblCiudadSucursales.TabIndex = 9;
+            lblCiudadSucursales.Text = "Ciudad";
             // 
-            // tabPage4
+            // txtDireccionSucursales
             // 
-            tabPage4.Controls.Add(panel1);
-            tabPage4.Controls.Add(label2);
-            tabPage4.Location = new Point(4, 24);
-            tabPage4.Name = "tabPage4";
-            tabPage4.Padding = new Padding(3);
-            tabPage4.Size = new Size(839, 447);
-            tabPage4.TabIndex = 1;
-            tabPage4.Text = "Pago";
-            tabPage4.UseVisualStyleBackColor = true;
+            txtDireccionSucursales.Location = new Point(173, 148);
+            txtDireccionSucursales.Name = "txtDireccionSucursales";
+            txtDireccionSucursales.Size = new Size(237, 23);
+            txtDireccionSucursales.TabIndex = 8;
+            // 
+            // lblDireccionSucursales
+            // 
+            lblDireccionSucursales.AutoSize = true;
+            lblDireccionSucursales.Location = new Point(69, 156);
+            lblDireccionSucursales.Name = "lblDireccionSucursales";
+            lblDireccionSucursales.Size = new Size(57, 15);
+            lblDireccionSucursales.TabIndex = 7;
+            lblDireccionSucursales.Text = "Dirección";
+            // 
+            // txtNombreSucursales
+            // 
+            txtNombreSucursales.Location = new Point(173, 91);
+            txtNombreSucursales.Name = "txtNombreSucursales";
+            txtNombreSucursales.Size = new Size(237, 23);
+            txtNombreSucursales.TabIndex = 6;
+            // 
+            // lblNombreSucursales
+            // 
+            lblNombreSucursales.AutoSize = true;
+            lblNombreSucursales.Location = new Point(69, 99);
+            lblNombreSucursales.Name = "lblNombreSucursales";
+            lblNombreSucursales.Size = new Size(51, 15);
+            lblNombreSucursales.TabIndex = 5;
+            lblNombreSucursales.Text = "Nombre";
+            // 
+            // txtSucursalIdSucursales
+            // 
+            txtSucursalIdSucursales.Location = new Point(173, 37);
+            txtSucursalIdSucursales.Name = "txtSucursalIdSucursales";
+            txtSucursalIdSucursales.Size = new Size(100, 23);
+            txtSucursalIdSucursales.TabIndex = 4;
+            // 
+            // lblIdSucursalSucursales
+            // 
+            lblIdSucursalSucursales.AutoSize = true;
+            lblIdSucursalSucursales.Location = new Point(69, 45);
+            lblIdSucursalSucursales.Name = "lblIdSucursalSucursales";
+            lblIdSucursalSucursales.Size = new Size(65, 15);
+            lblIdSucursalSucursales.TabIndex = 3;
+            lblIdSucursalSucursales.Text = "Sucursal ID";
+            // 
+            // btnCrearSucursales
+            // 
+            btnCrearSucursales.Location = new Point(391, 271);
+            btnCrearSucursales.Name = "btnCrearSucursales";
+            btnCrearSucursales.Size = new Size(75, 23);
+            btnCrearSucursales.TabIndex = 2;
+            btnCrearSucursales.Text = "Crear";
+            btnCrearSucursales.UseVisualStyleBackColor = true;
+            btnCrearSucursales.Click += button8_Click;
+            // 
+            // tpEmpleados
+            // 
+            tpEmpleados.Controls.Add(txtSucursalIdEmpleados);
+            tpEmpleados.Controls.Add(lblIdSucursalEmpleados);
+            tpEmpleados.Controls.Add(txtCargoEmpleados);
+            tpEmpleados.Controls.Add(lblCargoEmpleados);
+            tpEmpleados.Controls.Add(txtNombreEmpleados);
+            tpEmpleados.Controls.Add(lblNombreEmpleados);
+            tpEmpleados.Controls.Add(txtEmpleadoIdEmpleados);
+            tpEmpleados.Controls.Add(lblIdEmpleadoEmpleados);
+            tpEmpleados.Controls.Add(btnCrearEmpleados);
+            tpEmpleados.Location = new Point(4, 24);
+            tpEmpleados.Name = "tpEmpleados";
+            tpEmpleados.Size = new Size(839, 447);
+            tpEmpleados.TabIndex = 6;
+            tpEmpleados.Text = "Empleados";
+            tpEmpleados.UseVisualStyleBackColor = true;
+            // 
+            // txtSucursalIdEmpleados
+            // 
+            txtSucursalIdEmpleados.Location = new Point(173, 206);
+            txtSucursalIdEmpleados.Name = "txtSucursalIdEmpleados";
+            txtSucursalIdEmpleados.Size = new Size(237, 23);
+            txtSucursalIdEmpleados.TabIndex = 19;
+            // 
+            // lblIdSucursalEmpleados
+            // 
+            lblIdSucursalEmpleados.AutoSize = true;
+            lblIdSucursalEmpleados.Location = new Point(69, 214);
+            lblIdSucursalEmpleados.Name = "lblIdSucursalEmpleados";
+            lblIdSucursalEmpleados.Size = new Size(65, 15);
+            lblIdSucursalEmpleados.TabIndex = 18;
+            lblIdSucursalEmpleados.Text = "Sucursal ID";
+            // 
+            // txtCargoEmpleados
+            // 
+            txtCargoEmpleados.Location = new Point(173, 153);
+            txtCargoEmpleados.Name = "txtCargoEmpleados";
+            txtCargoEmpleados.Size = new Size(237, 23);
+            txtCargoEmpleados.TabIndex = 17;
+            // 
+            // lblCargoEmpleados
+            // 
+            lblCargoEmpleados.AutoSize = true;
+            lblCargoEmpleados.Location = new Point(69, 161);
+            lblCargoEmpleados.Name = "lblCargoEmpleados";
+            lblCargoEmpleados.Size = new Size(39, 15);
+            lblCargoEmpleados.TabIndex = 16;
+            lblCargoEmpleados.Text = "Cargo";
+            // 
+            // txtNombreEmpleados
+            // 
+            txtNombreEmpleados.Location = new Point(173, 96);
+            txtNombreEmpleados.Name = "txtNombreEmpleados";
+            txtNombreEmpleados.Size = new Size(237, 23);
+            txtNombreEmpleados.TabIndex = 15;
+            // 
+            // lblNombreEmpleados
+            // 
+            lblNombreEmpleados.AutoSize = true;
+            lblNombreEmpleados.Location = new Point(69, 104);
+            lblNombreEmpleados.Name = "lblNombreEmpleados";
+            lblNombreEmpleados.Size = new Size(51, 15);
+            lblNombreEmpleados.TabIndex = 14;
+            lblNombreEmpleados.Text = "Nombre";
+            // 
+            // txtEmpleadoIdEmpleados
+            // 
+            txtEmpleadoIdEmpleados.Location = new Point(173, 42);
+            txtEmpleadoIdEmpleados.Name = "txtEmpleadoIdEmpleados";
+            txtEmpleadoIdEmpleados.Size = new Size(100, 23);
+            txtEmpleadoIdEmpleados.TabIndex = 13;
+            // 
+            // lblIdEmpleadoEmpleados
+            // 
+            lblIdEmpleadoEmpleados.AutoSize = true;
+            lblIdEmpleadoEmpleados.Location = new Point(69, 50);
+            lblIdEmpleadoEmpleados.Name = "lblIdEmpleadoEmpleados";
+            lblIdEmpleadoEmpleados.Size = new Size(74, 15);
+            lblIdEmpleadoEmpleados.TabIndex = 12;
+            lblIdEmpleadoEmpleados.Text = "Empleado ID";
+            // 
+            // btnCrearEmpleados
+            // 
+            btnCrearEmpleados.Location = new Point(391, 276);
+            btnCrearEmpleados.Name = "btnCrearEmpleados";
+            btnCrearEmpleados.Size = new Size(75, 23);
+            btnCrearEmpleados.TabIndex = 11;
+            btnCrearEmpleados.Text = "Crear";
+            btnCrearEmpleados.UseVisualStyleBackColor = true;
+            // 
+            // tpFacturas
+            // 
+            tpFacturas.Controls.Add(panel1);
+            tpFacturas.Controls.Add(lblFacturas);
+            tpFacturas.Location = new Point(4, 24);
+            tpFacturas.Name = "tpFacturas";
+            tpFacturas.Padding = new Padding(3);
+            tpFacturas.Size = new Size(839, 447);
+            tpFacturas.TabIndex = 1;
+            tpFacturas.Text = "Facturas";
+            tpFacturas.UseVisualStyleBackColor = true;
+
             // 
             // panel1
             // 
             panel1.BorderStyle = BorderStyle.FixedSingle;
-            panel1.Controls.Add(textBox5);
-            panel1.Controls.Add(label8);
-            panel1.Controls.Add(label7);
-            panel1.Controls.Add(label6);
-            panel1.Controls.Add(label5);
-            panel1.Controls.Add(textBox4);
-            panel1.Controls.Add(textBox3);
-            panel1.Controls.Add(textBox2);
-            panel1.Controls.Add(textBox1);
-            panel1.Controls.Add(label4);
-            panel1.Controls.Add(buttonPago);
-            panel1.Controls.Add(tBoxFactura);
-            panel1.Controls.Add(label3);
+            panel1.Controls.Add(txtSucursalIdFacturas);
+            panel1.Controls.Add(lblSucursalIdFacturas);
+            panel1.Controls.Add(lblEmpleadoIdFacturas);
+            panel1.Controls.Add(lblClienteIdFacturas);
+            panel1.Controls.Add(lblTotalFacturas);
+            panel1.Controls.Add(txtEmpleadoIdFacturas);
+            panel1.Controls.Add(txtClienteIdFacturas);
+            panel1.Controls.Add(txtTotalFacturas);
+            panel1.Controls.Add(txtFechaFacturas);
+            panel1.Controls.Add(lblFechaFacturas);
+            panel1.Controls.Add(btnCrearFacturas);
+            panel1.Controls.Add(txtFacturaIdFacturas);
+            panel1.Controls.Add(lblFacturaIdFacturas);
             panel1.Location = new Point(185, 64);
             panel1.Name = "panel1";
             panel1.Size = new Size(446, 357);
             panel1.TabIndex = 1;
             // 
-            // textBox5
+            // txtSucursalIdFacturas
             // 
-            textBox5.Location = new Point(250, 231);
-            textBox5.Name = "textBox5";
-            textBox5.ReadOnly = true;
-            textBox5.Size = new Size(100, 23);
-            textBox5.TabIndex = 13;
+            txtSucursalIdFacturas.Location = new Point(250, 231);
+            txtSucursalIdFacturas.Name = "txtSucursalIdFacturas";
+            txtSucursalIdFacturas.ReadOnly = true;
+            txtSucursalIdFacturas.Size = new Size(100, 23);
+            txtSucursalIdFacturas.TabIndex = 13;
             // 
-            // label8
+            // lblSucursalIdFacturas
             // 
-            label8.AutoSize = true;
-            label8.Location = new Point(245, 201);
-            label8.Name = "label8";
-            label8.Size = new Size(103, 15);
-            label8.TabIndex = 12;
-            label8.Text = "Número de tienda";
+            lblSucursalIdFacturas.AutoSize = true;
+            lblSucursalIdFacturas.Location = new Point(245, 201);
+            lblSucursalIdFacturas.Name = "lblSucursalIdFacturas";
+            lblSucursalIdFacturas.Size = new Size(65, 15);
+            lblSucursalIdFacturas.TabIndex = 12;
+            lblSucursalIdFacturas.Text = "Sucursal ID";
             // 
-            // label7
+            // lblEmpleadoIdFacturas
             // 
-            label7.AutoSize = true;
-            label7.Location = new Point(37, 204);
-            label7.Name = "label7";
-            label7.Size = new Size(124, 15);
-            label7.TabIndex = 11;
-            label7.Text = "Productos comprados";
+            lblEmpleadoIdFacturas.AutoSize = true;
+            lblEmpleadoIdFacturas.Location = new Point(37, 204);
+            lblEmpleadoIdFacturas.Name = "lblEmpleadoIdFacturas";
+            lblEmpleadoIdFacturas.Size = new Size(74, 15);
+            lblEmpleadoIdFacturas.TabIndex = 11;
+            lblEmpleadoIdFacturas.Text = "Empleado ID";
             // 
-            // label6
+            // lblClienteIdFacturas
             // 
-            label6.AutoSize = true;
-            label6.Location = new Point(245, 112);
-            label6.Name = "label6";
-            label6.Size = new Size(85, 15);
-            label6.TabIndex = 10;
-            label6.Text = "Modo de pago";
+            lblClienteIdFacturas.AutoSize = true;
+            lblClienteIdFacturas.Location = new Point(245, 112);
+            lblClienteIdFacturas.Name = "lblClienteIdFacturas";
+            lblClienteIdFacturas.Size = new Size(58, 15);
+            lblClienteIdFacturas.TabIndex = 10;
+            lblClienteIdFacturas.Text = "Cliente ID";
             // 
-            // label5
+            // lblTotalFacturas
             // 
-            label5.AutoSize = true;
-            label5.Location = new Point(39, 112);
-            label5.Name = "label5";
-            label5.Size = new Size(116, 15);
-            label5.TabIndex = 9;
-            label5.Text = "Nombre beneficiario";
+            lblTotalFacturas.AutoSize = true;
+            lblTotalFacturas.Location = new Point(39, 112);
+            lblTotalFacturas.Name = "lblTotalFacturas";
+            lblTotalFacturas.Size = new Size(32, 15);
+            lblTotalFacturas.TabIndex = 9;
+            lblTotalFacturas.Text = "Total";
             // 
-            // textBox4
+            // txtEmpleadoIdFacturas
             // 
-            textBox4.Location = new Point(37, 231);
-            textBox4.Name = "textBox4";
-            textBox4.Size = new Size(100, 23);
-            textBox4.TabIndex = 7;
+            txtEmpleadoIdFacturas.Location = new Point(37, 231);
+            txtEmpleadoIdFacturas.Name = "txtEmpleadoIdFacturas";
+            txtEmpleadoIdFacturas.Size = new Size(100, 23);
+            txtEmpleadoIdFacturas.TabIndex = 7;
             // 
-            // textBox3
+            // txtClienteIdFacturas
             // 
-            textBox3.Location = new Point(250, 145);
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(100, 23);
-            textBox3.TabIndex = 6;
+            txtClienteIdFacturas.Location = new Point(250, 145);
+            txtClienteIdFacturas.Name = "txtClienteIdFacturas";
+            txtClienteIdFacturas.Size = new Size(100, 23);
+            txtClienteIdFacturas.TabIndex = 6;
             // 
-            // textBox2
+            // txtTotalFacturas
             // 
-            textBox2.Location = new Point(39, 139);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(100, 23);
-            textBox2.TabIndex = 5;
+            txtTotalFacturas.Location = new Point(39, 139);
+            txtTotalFacturas.Name = "txtTotalFacturas";
+            txtTotalFacturas.Size = new Size(100, 23);
+            txtTotalFacturas.TabIndex = 5;
             // 
-            // textBox1
+            // txtFechaFacturas
             // 
-            textBox1.Location = new Point(242, 63);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(100, 23);
-            textBox1.TabIndex = 4;
+            txtFechaFacturas.Location = new Point(242, 63);
+            txtFechaFacturas.Name = "txtFechaFacturas";
+            txtFechaFacturas.Size = new Size(100, 23);
+            txtFechaFacturas.TabIndex = 4;
             // 
-            // label4
+            // lblFechaFacturas
             // 
-            label4.AutoSize = true;
-            label4.Location = new Point(242, 32);
-            label4.Name = "label4";
-            label4.Size = new Size(97, 15);
-            label4.TabIndex = 3;
-            label4.Text = "Cantidad pagada";
+            lblFechaFacturas.AutoSize = true;
+            lblFechaFacturas.Location = new Point(242, 32);
+            lblFechaFacturas.Name = "lblFechaFacturas";
+            lblFechaFacturas.Size = new Size(38, 15);
+            lblFechaFacturas.TabIndex = 3;
+            lblFechaFacturas.Text = "Fecha";
             // 
-            // buttonPago
+            // btnCrearFacturas
             // 
-            buttonPago.Location = new Point(193, 291);
-            buttonPago.Name = "buttonPago";
-            buttonPago.Size = new Size(75, 23);
-            buttonPago.TabIndex = 2;
-            buttonPago.Text = "Crear pago";
-            buttonPago.UseVisualStyleBackColor = true;
-            buttonPago.Click += buttonPago_Click;
+            btnCrearFacturas.Location = new Point(193, 291);
+            btnCrearFacturas.Name = "btnCrearFacturas";
+            btnCrearFacturas.Size = new Size(75, 23);
+            btnCrearFacturas.TabIndex = 2;
+            btnCrearFacturas.Text = "Crear";
+            btnCrearFacturas.UseVisualStyleBackColor = true;
+            btnCrearFacturas.Click += buttonPago_Click;
             // 
-            // tBoxFactura
+            // txtFacturaIdFacturas
             // 
-            tBoxFactura.Location = new Point(40, 63);
-            tBoxFactura.Name = "tBoxFactura";
-            tBoxFactura.Size = new Size(100, 23);
-            tBoxFactura.TabIndex = 1;
+            txtFacturaIdFacturas.Location = new Point(40, 63);
+            txtFacturaIdFacturas.Name = "txtFacturaIdFacturas";
+            txtFacturaIdFacturas.Size = new Size(100, 23);
+            txtFacturaIdFacturas.TabIndex = 1;
             // 
-            // label3
+            // lblFacturaIdFacturas
             // 
-            label3.AutoSize = true;
-            label3.Location = new Point(36, 32);
-            label3.Name = "label3";
-            label3.Size = new Size(46, 15);
-            label3.TabIndex = 0;
-            label3.Text = "Factura";
+            lblFacturaIdFacturas.AutoSize = true;
+            lblFacturaIdFacturas.Location = new Point(36, 32);
+            lblFacturaIdFacturas.Name = "lblFacturaIdFacturas";
+            lblFacturaIdFacturas.Size = new Size(60, 15);
+            lblFacturaIdFacturas.TabIndex = 0;
+            lblFacturaIdFacturas.Text = "Factura ID";
             // 
-            // label2
+            // lblFacturas
             // 
-            label2.AutoSize = true;
-            label2.Location = new Point(362, 28);
-            label2.Name = "label2";
-            label2.Size = new Size(82, 15);
-            label2.TabIndex = 0;
-            label2.Text = "Crear un pago";
+            lblFacturas.AutoSize = true;
+            lblFacturas.Location = new Point(362, 28);
+            lblFacturas.Name = "lblFacturas";
+            lblFacturas.Size = new Size(51, 15);
+            lblFacturas.TabIndex = 0;
+            lblFacturas.Text = "Facturas";
             // 
-            // tabPage10
+            // tpClientes
             // 
-            tabPage10.Controls.Add(label17);
-            tabPage10.Controls.Add(panel2);
-            tabPage10.Controls.Add(label9);
-            tabPage10.Location = new Point(4, 24);
-            tabPage10.Name = "tabPage10";
-            tabPage10.Size = new Size(839, 447);
-            tabPage10.TabIndex = 2;
-            tabPage10.Text = "Disponible a";
-            tabPage10.UseVisualStyleBackColor = true;
+            tpClientes.Controls.Add(lblClientesClientes);
+            tpClientes.Controls.Add(panel2);
+            tpClientes.Controls.Add(label9);
+            tpClientes.Location = new Point(4, 24);
+            tpClientes.Name = "tpClientes";
+            tpClientes.Size = new Size(839, 447);
+            tpClientes.TabIndex = 2;
+            tpClientes.Text = "Clientes";
+            tpClientes.UseVisualStyleBackColor = true;
             // 
-            // label17
+            // lblClientesClientes
             // 
-            label17.AutoSize = true;
-            label17.Location = new Point(365, 41);
-            label17.Name = "label17";
-            label17.Size = new Size(103, 15);
-            label17.TabIndex = 2;
-            label17.Text = "Crear una relaciòn";
+            lblClientesClientes.AutoSize = true;
+            lblClientesClientes.Location = new Point(365, 41);
+            lblClientesClientes.Name = "lblClientesClientes";
+            lblClientesClientes.Size = new Size(49, 15);
+            lblClientesClientes.TabIndex = 2;
+            lblClientesClientes.Text = "Clientes";
             // 
             // panel2
             // 
             panel2.BorderStyle = BorderStyle.FixedSingle;
-            panel2.Controls.Add(textBox13);
-            panel2.Controls.Add(textBox12);
-            panel2.Controls.Add(button3);
-            panel2.Controls.Add(label19);
-            panel2.Controls.Add(label18);
+            panel2.Controls.Add(txtTelefonoClientes);
+            panel2.Controls.Add(txtClienteIdClientes);
+            panel2.Controls.Add(label1);
+            panel2.Controls.Add(btnCrearClientes);
+            panel2.Controls.Add(txtCorreoClientes);
+            panel2.Controls.Add(label4);
+            panel2.Controls.Add(label2);
+            panel2.Controls.Add(label3);
+            panel2.Controls.Add(txtNombreClientes);
             panel2.Location = new Point(203, 94);
             panel2.Name = "panel2";
             panel2.Size = new Size(426, 321);
             panel2.TabIndex = 1;
-            // 
-            // textBox13
-            // 
-            textBox13.Location = new Point(250, 86);
-            textBox13.Name = "textBox13";
-            textBox13.Size = new Size(100, 23);
-            textBox13.TabIndex = 4;
-            // 
-            // textBox12
-            // 
-            textBox12.Location = new Point(54, 86);
-            textBox12.Name = "textBox12";
-            textBox12.Size = new Size(100, 23);
-            textBox12.TabIndex = 3;
-            // 
-            // button3
-            // 
-            button3.Location = new Point(115, 232);
-            button3.Name = "button3";
-            button3.Size = new Size(187, 23);
-            button3.TabIndex = 2;
-            button3.Text = "Crear relaciòn producto y pago";
-            button3.UseVisualStyleBackColor = true;
-            // 
-            // label19
-            // 
-            label19.AutoSize = true;
-            label19.Location = new Point(250, 43);
-            label19.Name = "label19";
-            label19.Size = new Size(46, 15);
-            label19.TabIndex = 1;
-            label19.Text = "Factura";
-            // 
-            // label18
-            // 
-            label18.AutoSize = true;
-            label18.Location = new Point(53, 43);
-            label18.Name = "label18";
-            label18.Size = new Size(70, 15);
-            label18.TabIndex = 0;
-            label18.Text = "ID producto";
             // 
             // label9
             // 
@@ -569,26 +730,24 @@
             label9.Size = new Size(0, 15);
             label9.TabIndex = 0;
             // 
-            // tabPage11
+            // tpProductosFacturas
             // 
-            tabPage11.Controls.Add(panel3);
-            tabPage11.Controls.Add(label12);
-            tabPage11.Location = new Point(4, 24);
-            tabPage11.Name = "tabPage11";
-            tabPage11.Size = new Size(839, 447);
-            tabPage11.TabIndex = 3;
-            tabPage11.Text = "Producto";
-            tabPage11.UseVisualStyleBackColor = true;
+            tpProductosFacturas.Controls.Add(panel3);
+            tpProductosFacturas.Controls.Add(label12);
+            tpProductosFacturas.Location = new Point(4, 24);
+            tpProductosFacturas.Name = "tpProductosFacturas";
+            tpProductosFacturas.Size = new Size(839, 447);
+            tpProductosFacturas.TabIndex = 3;
+            tpProductosFacturas.Text = "Productos Facturas";
+            tpProductosFacturas.UseVisualStyleBackColor = true;
             // 
             // panel3
             // 
             panel3.BorderStyle = BorderStyle.FixedSingle;
-            panel3.Controls.Add(textBox11);
-            panel3.Controls.Add(textBox10);
-            panel3.Controls.Add(textBox9);
-            panel3.Controls.Add(textBox8);
-            panel3.Controls.Add(button2);
-            panel3.Controls.Add(label16);
+            panel3.Controls.Add(txtFacturaIdProductosFacturas);
+            panel3.Controls.Add(txtProductoIdProductosFacturas);
+            panel3.Controls.Add(txtItemIdProductosFacturas);
+            panel3.Controls.Add(btnCrearProductosFacturas);
             panel3.Controls.Add(label15);
             panel3.Controls.Add(label14);
             panel3.Controls.Add(label13);
@@ -597,109 +756,93 @@
             panel3.Size = new Size(356, 333);
             panel3.TabIndex = 1;
             // 
-            // textBox11
+            // txtFacturaIdProductosFacturas
             // 
-            textBox11.Location = new Point(209, 176);
-            textBox11.Name = "textBox11";
-            textBox11.Size = new Size(100, 23);
-            textBox11.TabIndex = 8;
+            txtFacturaIdProductosFacturas.Location = new Point(33, 171);
+            txtFacturaIdProductosFacturas.Name = "txtFacturaIdProductosFacturas";
+            txtFacturaIdProductosFacturas.Size = new Size(100, 23);
+            txtFacturaIdProductosFacturas.TabIndex = 7;
             // 
-            // textBox10
+            // txtProductoIdProductosFacturas
             // 
-            textBox10.Location = new Point(33, 171);
-            textBox10.Name = "textBox10";
-            textBox10.Size = new Size(100, 23);
-            textBox10.TabIndex = 7;
+            txtProductoIdProductosFacturas.Location = new Point(222, 171);
+            txtProductoIdProductosFacturas.Name = "txtProductoIdProductosFacturas";
+            txtProductoIdProductosFacturas.Size = new Size(100, 23);
+            txtProductoIdProductosFacturas.TabIndex = 6;
             // 
-            // textBox9
+            // txtItemIdProductosFacturas
             // 
-            textBox9.Location = new Point(206, 67);
-            textBox9.Name = "textBox9";
-            textBox9.Size = new Size(100, 23);
-            textBox9.TabIndex = 6;
+            txtItemIdProductosFacturas.Location = new Point(31, 66);
+            txtItemIdProductosFacturas.Name = "txtItemIdProductosFacturas";
+            txtItemIdProductosFacturas.Size = new Size(100, 23);
+            txtItemIdProductosFacturas.TabIndex = 5;
             // 
-            // textBox8
+            // btnCrearProductosFacturas
             // 
-            textBox8.Location = new Point(31, 66);
-            textBox8.Name = "textBox8";
-            textBox8.Size = new Size(100, 23);
-            textBox8.TabIndex = 5;
-            // 
-            // button2
-            // 
-            button2.Location = new Point(120, 244);
-            button2.Name = "button2";
-            button2.Size = new Size(141, 23);
-            button2.TabIndex = 4;
-            button2.Text = "Crear un producto";
-            button2.UseVisualStyleBackColor = true;
-            // 
-            // label16
-            // 
-            label16.AutoSize = true;
-            label16.Location = new Point(206, 127);
-            label16.Name = "label16";
-            label16.Size = new Size(40, 15);
-            label16.TabIndex = 3;
-            label16.Text = "Precio";
+            btnCrearProductosFacturas.Location = new Point(120, 244);
+            btnCrearProductosFacturas.Name = "btnCrearProductosFacturas";
+            btnCrearProductosFacturas.Size = new Size(141, 23);
+            btnCrearProductosFacturas.TabIndex = 4;
+            btnCrearProductosFacturas.Text = "Crear";
+            btnCrearProductosFacturas.UseVisualStyleBackColor = true;
             // 
             // label15
             // 
             label15.AutoSize = true;
             label15.Location = new Point(33, 127);
             label15.Name = "label15";
-            label15.Size = new Size(96, 15);
+            label15.Size = new Size(60, 15);
             label15.TabIndex = 2;
-            label15.Text = "Fecha expiración";
+            label15.Text = "Factura ID";
             // 
             // label14
             // 
             label14.AutoSize = true;
-            label14.Location = new Point(206, 31);
+            label14.Location = new Point(222, 127);
             label14.Name = "label14";
-            label14.Size = new Size(103, 15);
+            label14.Size = new Size(70, 15);
             label14.TabIndex = 1;
-            label14.Text = "Nombre producto";
+            label14.Text = "Producto ID";
             // 
             // label13
             // 
             label13.AutoSize = true;
             label13.Location = new Point(31, 31);
             label13.Name = "label13";
-            label13.Size = new Size(70, 15);
+            label13.Size = new Size(45, 15);
             label13.TabIndex = 0;
-            label13.Text = "ID Producto";
+            label13.Text = "Ítem ID";
             // 
             // label12
             // 
             label12.AutoSize = true;
-            label12.Location = new Point(319, 47);
+            label12.Location = new Point(358, 42);
             label12.Name = "label12";
-            label12.Size = new Size(104, 15);
+            label12.Size = new Size(108, 15);
             label12.TabIndex = 0;
-            label12.Text = "Crear un producto";
+            label12.Text = "Productos Facturas";
             // 
-            // tabPage13
+            // tpProductos
             // 
-            tabPage13.Controls.Add(panel5);
-            tabPage13.Controls.Add(label20);
-            tabPage13.Location = new Point(4, 24);
-            tabPage13.Name = "tabPage13";
-            tabPage13.Size = new Size(839, 447);
-            tabPage13.TabIndex = 5;
-            tabPage13.Text = "Orden";
-            tabPage13.UseVisualStyleBackColor = true;
+            tpProductos.Controls.Add(panel5);
+            tpProductos.Controls.Add(label20);
+            tpProductos.Location = new Point(4, 24);
+            tpProductos.Name = "tpProductos";
+            tpProductos.Size = new Size(839, 447);
+            tpProductos.TabIndex = 5;
+            tpProductos.Text = "Productos";
+            tpProductos.UseVisualStyleBackColor = true;
             // 
             // panel5
             // 
             panel5.BorderStyle = BorderStyle.FixedSingle;
-            panel5.Controls.Add(button4);
-            panel5.Controls.Add(textBox20);
-            panel5.Controls.Add(textBox19);
-            panel5.Controls.Add(textBox18);
-            panel5.Controls.Add(textBox16);
-            panel5.Controls.Add(textBox15);
-            panel5.Controls.Add(textBox14);
+            panel5.Controls.Add(btnCrearProductos);
+            panel5.Controls.Add(txtProductosIdProductos);
+            panel5.Controls.Add(txtStockProductos);
+            panel5.Controls.Add(txtCategoriaIdProductos);
+            panel5.Controls.Add(txtPrecioProductos);
+            panel5.Controls.Add(txtNombreProductos);
+            panel5.Controls.Add(txtProductoIdProductos);
             panel5.Controls.Add(label27);
             panel5.Controls.Add(label26);
             panel5.Controls.Add(label25);
@@ -711,119 +854,185 @@
             panel5.Size = new Size(356, 333);
             panel5.TabIndex = 1;
             // 
-            // button4
+            // btnCrearProductos
             // 
-            button4.Location = new Point(130, 285);
-            button4.Name = "button4";
-            button4.Size = new Size(110, 23);
-            button4.TabIndex = 14;
-            button4.Text = "Crear la orden";
-            button4.UseVisualStyleBackColor = true;
+            btnCrearProductos.Location = new Point(130, 266);
+            btnCrearProductos.Name = "btnCrearProductos";
+            btnCrearProductos.Size = new Size(110, 23);
+            btnCrearProductos.TabIndex = 14;
+            btnCrearProductos.Text = "Crear";
+            btnCrearProductos.UseVisualStyleBackColor = true;
             // 
-            // textBox20
+            // txtProductosIdProductos
             // 
-            textBox20.Location = new Point(34, 240);
-            textBox20.Name = "textBox20";
-            textBox20.Size = new Size(100, 23);
-            textBox20.TabIndex = 13;
+            txtProductosIdProductos.Location = new Point(222, 164);
+            txtProductosIdProductos.Name = "txtProductosIdProductos";
+            txtProductosIdProductos.Size = new Size(100, 23);
+            txtProductosIdProductos.TabIndex = 13;
             // 
-            // textBox19
+            // txtStockProductos
             // 
-            textBox19.Location = new Point(222, 106);
-            textBox19.Name = "textBox19";
-            textBox19.Size = new Size(100, 23);
-            textBox19.TabIndex = 12;
+            txtStockProductos.Location = new Point(222, 102);
+            txtStockProductos.Name = "txtStockProductos";
+            txtStockProductos.Size = new Size(100, 23);
+            txtStockProductos.TabIndex = 12;
             // 
-            // textBox18
+            // txtCategoriaIdProductos
             // 
-            textBox18.Location = new Point(30, 164);
-            textBox18.Name = "textBox18";
-            textBox18.Size = new Size(100, 23);
-            textBox18.TabIndex = 11;
+            txtCategoriaIdProductos.Location = new Point(30, 164);
+            txtCategoriaIdProductos.Name = "txtCategoriaIdProductos";
+            txtCategoriaIdProductos.Size = new Size(100, 23);
+            txtCategoriaIdProductos.TabIndex = 11;
             // 
-            // textBox16
+            // txtPrecioProductos
             // 
-            textBox16.Location = new Point(30, 102);
-            textBox16.Name = "textBox16";
-            textBox16.Size = new Size(100, 23);
-            textBox16.TabIndex = 9;
+            txtPrecioProductos.Location = new Point(30, 102);
+            txtPrecioProductos.Name = "txtPrecioProductos";
+            txtPrecioProductos.Size = new Size(100, 23);
+            txtPrecioProductos.TabIndex = 9;
             // 
-            // textBox15
+            // txtNombreProductos
             // 
-            textBox15.Location = new Point(224, 43);
-            textBox15.Name = "textBox15";
-            textBox15.Size = new Size(100, 23);
-            textBox15.TabIndex = 8;
+            txtNombreProductos.Location = new Point(222, 42);
+            txtNombreProductos.Name = "txtNombreProductos";
+            txtNombreProductos.Size = new Size(100, 23);
+            txtNombreProductos.TabIndex = 8;
             // 
-            // textBox14
+            // txtProductoIdProductos
             // 
-            textBox14.Location = new Point(29, 42);
-            textBox14.Name = "textBox14";
-            textBox14.Size = new Size(100, 23);
-            textBox14.TabIndex = 7;
+            txtProductoIdProductos.Location = new Point(29, 42);
+            txtProductoIdProductos.Name = "txtProductoIdProductos";
+            txtProductoIdProductos.Size = new Size(100, 23);
+            txtProductoIdProductos.TabIndex = 7;
             // 
             // label27
             // 
             label27.AutoSize = true;
-            label27.Location = new Point(29, 212);
+            label27.Location = new Point(222, 136);
             label27.Name = "label27";
-            label27.Size = new Size(67, 15);
+            label27.Size = new Size(75, 15);
             label27.TabIndex = 6;
-            label27.Text = "Precio total";
+            label27.Text = "Proveedor ID";
             // 
             // label26
             // 
             label26.AutoSize = true;
-            label26.Location = new Point(218, 76);
+            label26.Location = new Point(222, 76);
             label26.Name = "label26";
-            label26.Size = new Size(70, 15);
+            label26.Size = new Size(36, 15);
             label26.TabIndex = 5;
-            label26.Text = "ID Producto";
+            label26.Text = "Stock";
             // 
             // label25
             // 
             label25.AutoSize = true;
             label25.Location = new Point(29, 136);
             label25.Name = "label25";
-            label25.Size = new Size(134, 15);
+            label25.Size = new Size(72, 15);
             label25.TabIndex = 4;
-            label25.Text = "Localización de la orden";
+            label25.Text = "Categoría ID";
             // 
             // label23
             // 
             label23.AutoSize = true;
             label23.Location = new Point(26, 76);
             label23.Name = "label23";
-            label23.Size = new Size(99, 15);
+            label23.Size = new Size(40, 15);
             label23.TabIndex = 2;
-            label23.Text = "Número de ítems";
+            label23.Text = "Precio";
             // 
             // label22
             // 
             label22.AutoSize = true;
-            label22.Location = new Point(218, 18);
+            label22.Location = new Point(222, 18);
             label22.Name = "label22";
-            label22.Size = new Size(83, 15);
+            label22.Size = new Size(51, 15);
             label22.TabIndex = 1;
-            label22.Text = "Disponibilidad";
+            label22.Text = "Nombre";
             // 
             // label21
             // 
             label21.AutoSize = true;
             label21.Location = new Point(27, 18);
             label21.Name = "label21";
-            label21.Size = new Size(54, 15);
+            label21.Size = new Size(70, 15);
             label21.TabIndex = 0;
-            label21.Text = "ID Orden";
+            label21.Text = "Producto ID";
             // 
             // label20
             // 
             label20.AutoSize = true;
-            label20.Location = new Point(328, 43);
+            label20.Location = new Point(344, 43);
             label20.Name = "label20";
-            label20.Size = new Size(92, 15);
+            label20.Size = new Size(61, 15);
             label20.TabIndex = 0;
-            label20.Text = "Crear una orden";
+            label20.Text = "Productos";
+            // 
+            // tpCategorias
+            // 
+            tpCategorias.Controls.Add(txtNombreCategorias);
+            tpCategorias.Controls.Add(label5);
+            tpCategorias.Controls.Add(txtCategoriaIdCategorias);
+            tpCategorias.Controls.Add(label6);
+            tpCategorias.Controls.Add(btnCrearCategorias);
+            tpCategorias.Location = new Point(4, 24);
+            tpCategorias.Name = "tpCategorias";
+            tpCategorias.Size = new Size(839, 447);
+            tpCategorias.TabIndex = 7;
+            tpCategorias.Text = "Categorias";
+            tpCategorias.UseVisualStyleBackColor = true;
+            // 
+            // tpProductosPedidos
+            // 
+            tpProductosPedidos.Controls.Add(txtCantidadProductoProductosPedidos);
+            tpProductosPedidos.Controls.Add(label7);
+            tpProductosPedidos.Controls.Add(txtProductoIdProductosPedidos);
+            tpProductosPedidos.Controls.Add(label8);
+            tpProductosPedidos.Controls.Add(txtPedidoIdProductosPedidos);
+            tpProductosPedidos.Controls.Add(label16);
+            tpProductosPedidos.Controls.Add(txtItemIdProductosPedidos);
+            tpProductosPedidos.Controls.Add(label17);
+            tpProductosPedidos.Controls.Add(btnCrearProductosPedidos);
+            tpProductosPedidos.Location = new Point(4, 24);
+            tpProductosPedidos.Name = "tpProductosPedidos";
+            tpProductosPedidos.Size = new Size(839, 447);
+            tpProductosPedidos.TabIndex = 8;
+            tpProductosPedidos.Text = "Productos Pedidos";
+            tpProductosPedidos.UseVisualStyleBackColor = true;
+            // 
+            // tpPedidos
+            // 
+            tpPedidos.Controls.Add(txtProveedorIdPedidos);
+            tpPedidos.Controls.Add(label18);
+            tpPedidos.Controls.Add(txtTotalPedidos);
+            tpPedidos.Controls.Add(label19);
+            tpPedidos.Controls.Add(txtFechaPedidos);
+            tpPedidos.Controls.Add(label42);
+            tpPedidos.Controls.Add(txtPedidoIdPedidos);
+            tpPedidos.Controls.Add(label43);
+            tpPedidos.Controls.Add(btnCrearPedidos);
+            tpPedidos.Location = new Point(4, 24);
+            tpPedidos.Name = "tpPedidos";
+            tpPedidos.Size = new Size(839, 447);
+            tpPedidos.TabIndex = 9;
+            tpPedidos.Text = "Pedidos";
+            tpPedidos.UseVisualStyleBackColor = true;
+            // 
+            // tpProveedores
+            // 
+            tpProveedores.Controls.Add(txtContactoProveedores);
+            tpProveedores.Controls.Add(label45);
+            tpProveedores.Controls.Add(txtNombreProveedores);
+            tpProveedores.Controls.Add(label46);
+            tpProveedores.Controls.Add(txtProveedorIdProveedores);
+            tpProveedores.Controls.Add(label47);
+            tpProveedores.Controls.Add(btnCrearProveedores);
+            tpProveedores.Location = new Point(4, 24);
+            tpProveedores.Name = "tpProveedores";
+            tpProveedores.Size = new Size(839, 447);
+            tpProveedores.TabIndex = 10;
+            tpProveedores.Text = "Proveedores";
+            tpProveedores.UseVisualStyleBackColor = true;
             // 
             // tabPage2
             // 
@@ -1667,239 +1876,344 @@
             button1.Text = "Crear relación producto y pago";
             button1.UseVisualStyleBackColor = true;
             // 
-            // tabPage15
+            // cmbCiudad
             // 
-            tabPage15.Controls.Add(button8);
-            tabPage15.Controls.Add(dataGridView17);
-            tabPage15.Controls.Add(label42);
-            tabPage15.Location = new Point(4, 24);
-            tabPage15.Name = "tabPage15";
-            tabPage15.Size = new Size(788, 408);
-            tabPage15.TabIndex = 5;
-            tabPage15.Text = "Productos Facturas";
-            tabPage15.UseVisualStyleBackColor = true;
+            cmbCiudad.FormattingEnabled = true;
+            cmbCiudad.Items.AddRange(new object[] { "Quito", "Guayaquil" });
+            cmbCiudad.Location = new Point(762, 23);
+            cmbCiudad.Name = "cmbCiudad";
+            cmbCiudad.Size = new Size(121, 23);
+            cmbCiudad.TabIndex = 2;
             // 
-            // tabPage20
+            // txtTelefonoClientes
             // 
-            tabPage20.Controls.Add(button13);
-            tabPage20.Controls.Add(dataGridView18);
-            tabPage20.Controls.Add(label43);
-            tabPage20.Location = new Point(4, 24);
-            tabPage20.Name = "tabPage20";
-            tabPage20.Size = new Size(788, 408);
-            tabPage20.TabIndex = 6;
-            tabPage20.Text = "Productos";
-            tabPage20.UseVisualStyleBackColor = true;
+            txtTelefonoClientes.Location = new Point(146, 197);
+            txtTelefonoClientes.Name = "txtTelefonoClientes";
+            txtTelefonoClientes.Size = new Size(237, 23);
+            txtTelefonoClientes.TabIndex = 19;
             // 
-            // tabPage26
+            // label1
             // 
-            tabPage26.Controls.Add(dataGridView19);
-            tabPage26.Controls.Add(label44);
-            tabPage26.Controls.Add(button15);
-            tabPage26.Location = new Point(4, 24);
-            tabPage26.Name = "tabPage26";
-            tabPage26.Size = new Size(788, 408);
-            tabPage26.TabIndex = 7;
-            tabPage26.Text = "Categorías";
-            tabPage26.UseVisualStyleBackColor = true;
+            label1.AutoSize = true;
+            label1.Location = new Point(42, 205);
+            label1.Name = "label1";
+            label1.Size = new Size(52, 15);
+            label1.TabIndex = 18;
+            label1.Text = "Teléfono";
             // 
-            // tabPage28
+            // txtCorreoClientes
             // 
-            tabPage28.Controls.Add(button16);
-            tabPage28.Controls.Add(dataGridView20);
-            tabPage28.Controls.Add(label45);
-            tabPage28.Location = new Point(4, 24);
-            tabPage28.Name = "tabPage28";
-            tabPage28.Size = new Size(788, 408);
-            tabPage28.TabIndex = 8;
-            tabPage28.Text = "Productos pedidos";
-            tabPage28.UseVisualStyleBackColor = true;
+            txtCorreoClientes.Location = new Point(146, 144);
+            txtCorreoClientes.Name = "txtCorreoClientes";
+            txtCorreoClientes.Size = new Size(237, 23);
+            txtCorreoClientes.TabIndex = 17;
             // 
-            // tabPage29
+            // label2
             // 
-            tabPage29.Controls.Add(button17);
-            tabPage29.Controls.Add(dataGridView21);
-            tabPage29.Controls.Add(label46);
-            tabPage29.Location = new Point(4, 24);
-            tabPage29.Name = "tabPage29";
-            tabPage29.Size = new Size(788, 408);
-            tabPage29.TabIndex = 9;
-            tabPage29.Text = "Pedidos";
-            tabPage29.UseVisualStyleBackColor = true;
+            label2.AutoSize = true;
+            label2.Location = new Point(42, 152);
+            label2.Name = "label2";
+            label2.Size = new Size(43, 15);
+            label2.TabIndex = 16;
+            label2.Text = "Correo";
             // 
-            // tabPage30
+            // txtNombreClientes
             // 
-            tabPage30.Controls.Add(Actualizar);
-            tabPage30.Controls.Add(dataGridView22);
-            tabPage30.Controls.Add(label47);
-            tabPage30.Location = new Point(4, 24);
-            tabPage30.Name = "tabPage30";
-            tabPage30.Size = new Size(788, 408);
-            tabPage30.TabIndex = 10;
-            tabPage30.Text = "Proveedores";
-            tabPage30.UseVisualStyleBackColor = true;
+            txtNombreClientes.Location = new Point(146, 87);
+            txtNombreClientes.Name = "txtNombreClientes";
+            txtNombreClientes.Size = new Size(237, 23);
+            txtNombreClientes.TabIndex = 15;
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Location = new Point(42, 95);
+            label3.Name = "label3";
+            label3.Size = new Size(51, 15);
+            label3.TabIndex = 14;
+            label3.Text = "Nombre";
+            // 
+            // txtClienteIdClientes
+            // 
+            txtClienteIdClientes.Location = new Point(146, 33);
+            txtClienteIdClientes.Name = "txtClienteIdClientes";
+            txtClienteIdClientes.Size = new Size(100, 23);
+            txtClienteIdClientes.TabIndex = 13;
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Location = new Point(42, 41);
+            label4.Name = "label4";
+            label4.Size = new Size(58, 15);
+            label4.TabIndex = 12;
+            label4.Text = "Cliente ID";
+            // 
+            // btnCrearClientes
+            // 
+            btnCrearClientes.Location = new Point(308, 256);
+            btnCrearClientes.Name = "btnCrearClientes";
+            btnCrearClientes.Size = new Size(75, 23);
+            btnCrearClientes.TabIndex = 11;
+            btnCrearClientes.Text = "Crear";
+            btnCrearClientes.UseVisualStyleBackColor = true;
+            // 
+            // txtNombreCategorias
+            // 
+            txtNombreCategorias.Location = new Point(156, 109);
+            txtNombreCategorias.Name = "txtNombreCategorias";
+            txtNombreCategorias.Size = new Size(237, 23);
+            txtNombreCategorias.TabIndex = 11;
+            // 
+            // label5
+            // 
+            label5.AutoSize = true;
+            label5.Location = new Point(52, 117);
+            label5.Name = "label5";
+            label5.Size = new Size(51, 15);
+            label5.TabIndex = 10;
+            label5.Text = "Nombre";
+            // 
+            // txtCategoriaIdCategorias
+            // 
+            txtCategoriaIdCategorias.Location = new Point(156, 55);
+            txtCategoriaIdCategorias.Name = "txtCategoriaIdCategorias";
+            txtCategoriaIdCategorias.Size = new Size(100, 23);
+            txtCategoriaIdCategorias.TabIndex = 9;
+            // 
+            // label6
+            // 
+            label6.AutoSize = true;
+            label6.Location = new Point(52, 63);
+            label6.Name = "label6";
+            label6.Size = new Size(72, 15);
+            label6.TabIndex = 8;
+            label6.Text = "Categoría ID";
+            // 
+            // btnCrearCategorias
+            // 
+            btnCrearCategorias.Location = new Point(318, 185);
+            btnCrearCategorias.Name = "btnCrearCategorias";
+            btnCrearCategorias.Size = new Size(75, 23);
+            btnCrearCategorias.TabIndex = 7;
+            btnCrearCategorias.Text = "Crear";
+            btnCrearCategorias.UseVisualStyleBackColor = true;
+            // 
+            // txtCantidadProductoProductosPedidos
+            // 
+            txtCantidadProductoProductosPedidos.Location = new Point(186, 202);
+            txtCantidadProductoProductosPedidos.Name = "txtCantidadProductoProductosPedidos";
+            txtCantidadProductoProductosPedidos.Size = new Size(237, 23);
+            txtCantidadProductoProductosPedidos.TabIndex = 19;
+            // 
+            // label7
+            // 
+            label7.AutoSize = true;
+            label7.Location = new Point(48, 210);
+            label7.Name = "label7";
+            label7.Size = new Size(126, 15);
+            label7.TabIndex = 18;
+            label7.Text = "Cantidad del Producto";
+            // 
+            // txtProductoIdProductosPedidos
+            // 
+            txtProductoIdProductosPedidos.Location = new Point(186, 149);
+            txtProductoIdProductosPedidos.Name = "txtProductoIdProductosPedidos";
+            txtProductoIdProductosPedidos.Size = new Size(237, 23);
+            txtProductoIdProductosPedidos.TabIndex = 17;
+            // 
+            // label8
+            // 
+            label8.AutoSize = true;
+            label8.Location = new Point(48, 157);
+            label8.Name = "label8";
+            label8.Size = new Size(70, 15);
+            label8.TabIndex = 16;
+            label8.Text = "Producto ID";
+            // 
+            // txtPedidoIdProductosPedidos
+            // 
+            txtPedidoIdProductosPedidos.Location = new Point(186, 92);
+            txtPedidoIdProductosPedidos.Name = "txtPedidoIdProductosPedidos";
+            txtPedidoIdProductosPedidos.Size = new Size(237, 23);
+            txtPedidoIdProductosPedidos.TabIndex = 15;
+            // 
+            // label16
+            // 
+            label16.AutoSize = true;
+            label16.Location = new Point(48, 100);
+            label16.Name = "label16";
+            label16.Size = new Size(58, 15);
+            label16.TabIndex = 14;
+            label16.Text = "Pedido ID";
+            // 
+            // txtItemIdProductosPedidos
+            // 
+            txtItemIdProductosPedidos.Location = new Point(186, 38);
+            txtItemIdProductosPedidos.Name = "txtItemIdProductosPedidos";
+            txtItemIdProductosPedidos.Size = new Size(100, 23);
+            txtItemIdProductosPedidos.TabIndex = 13;
+            // 
+            // label17
+            // 
+            label17.AutoSize = true;
+            label17.Location = new Point(48, 46);
+            label17.Name = "label17";
+            label17.Size = new Size(45, 15);
+            label17.TabIndex = 12;
+            label17.Text = "Ítem ID";
+            // 
+            // btnCrearProductosPedidos
+            // 
+            btnCrearProductosPedidos.Location = new Point(348, 267);
+            btnCrearProductosPedidos.Name = "btnCrearProductosPedidos";
+            btnCrearProductosPedidos.Size = new Size(75, 23);
+            btnCrearProductosPedidos.TabIndex = 11;
+            btnCrearProductosPedidos.Text = "Crear";
+            btnCrearProductosPedidos.UseVisualStyleBackColor = true;
+            // 
+            // txtProveedorIdPedidos
+            // 
+            txtProveedorIdPedidos.Location = new Point(191, 203);
+            txtProveedorIdPedidos.Name = "txtProveedorIdPedidos";
+            txtProveedorIdPedidos.Size = new Size(237, 23);
+            txtProveedorIdPedidos.TabIndex = 28;
+            // 
+            // label18
+            // 
+            label18.AutoSize = true;
+            label18.Location = new Point(53, 211);
+            label18.Name = "label18";
+            label18.Size = new Size(75, 15);
+            label18.TabIndex = 27;
+            label18.Text = "Proveedor ID";
+            // 
+            // txtTotalPedidos
+            // 
+            txtTotalPedidos.Location = new Point(191, 150);
+            txtTotalPedidos.Name = "txtTotalPedidos";
+            txtTotalPedidos.Size = new Size(237, 23);
+            txtTotalPedidos.TabIndex = 26;
+            // 
+            // label19
+            // 
+            label19.AutoSize = true;
+            label19.Location = new Point(53, 158);
+            label19.Name = "label19";
+            label19.Size = new Size(32, 15);
+            label19.TabIndex = 25;
+            label19.Text = "Total";
+            // 
+            // txtFechaPedidos
+            // 
+            txtFechaPedidos.Location = new Point(191, 93);
+            txtFechaPedidos.Name = "txtFechaPedidos";
+            txtFechaPedidos.Size = new Size(237, 23);
+            txtFechaPedidos.TabIndex = 24;
             // 
             // label42
             // 
             label42.AutoSize = true;
-            label42.Location = new Point(314, 52);
+            label42.Location = new Point(53, 101);
             label42.Name = "label42";
-            label42.Size = new Size(161, 15);
-            label42.TabIndex = 0;
-            label42.Text = "Actualizar productos facturas";
+            label42.Size = new Size(38, 15);
+            label42.TabIndex = 23;
+            label42.Text = "Fecha";
             // 
-            // dataGridView17
+            // txtPedidoIdPedidos
             // 
-            dataGridView17.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView17.Location = new Point(101, 89);
-            dataGridView17.Name = "dataGridView17";
-            dataGridView17.Size = new Size(618, 150);
-            dataGridView17.TabIndex = 1;
-            // 
-            // button8
-            // 
-            button8.Location = new Point(356, 266);
-            button8.Name = "button8";
-            button8.Size = new Size(75, 23);
-            button8.TabIndex = 2;
-            button8.Text = "Actualizar";
-            button8.UseVisualStyleBackColor = true;
+            txtPedidoIdPedidos.Location = new Point(191, 39);
+            txtPedidoIdPedidos.Name = "txtPedidoIdPedidos";
+            txtPedidoIdPedidos.Size = new Size(100, 23);
+            txtPedidoIdPedidos.TabIndex = 22;
             // 
             // label43
             // 
             label43.AutoSize = true;
-            label43.Location = new Point(299, 38);
+            label43.Location = new Point(53, 47);
             label43.Name = "label43";
-            label43.Size = new Size(116, 15);
-            label43.TabIndex = 0;
-            label43.Text = "Actualizar productos";
+            label43.Size = new Size(58, 15);
+            label43.TabIndex = 21;
+            label43.Text = "Pedido ID";
             // 
-            // dataGridView18
+            // btnCrearPedidos
             // 
-            dataGridView18.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView18.Location = new Point(73, 93);
-            dataGridView18.Name = "dataGridView18";
-            dataGridView18.Size = new Size(660, 150);
-            dataGridView18.TabIndex = 1;
+            btnCrearPedidos.Location = new Point(353, 268);
+            btnCrearPedidos.Name = "btnCrearPedidos";
+            btnCrearPedidos.Size = new Size(75, 23);
+            btnCrearPedidos.TabIndex = 20;
+            btnCrearPedidos.Text = "Crear";
+            btnCrearPedidos.UseVisualStyleBackColor = true;
             // 
-            // button13
+            // txtContactoProveedores
             // 
-            button13.Location = new Point(337, 270);
-            button13.Name = "button13";
-            button13.Size = new Size(75, 23);
-            button13.TabIndex = 2;
-            button13.Text = "Actualizar";
-            button13.UseVisualStyleBackColor = true;
-            // 
-            // button15
-            // 
-            button15.Location = new Point(339, 265);
-            button15.Name = "button15";
-            button15.Size = new Size(75, 23);
-            button15.TabIndex = 0;
-            button15.Text = "Actualizar";
-            button15.UseVisualStyleBackColor = true;
-            // 
-            // label44
-            // 
-            label44.AutoSize = true;
-            label44.Location = new Point(316, 49);
-            label44.Name = "label44";
-            label44.Size = new Size(116, 15);
-            label44.TabIndex = 1;
-            label44.Text = "Actualizar categorías";
-            // 
-            // dataGridView19
-            // 
-            dataGridView19.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView19.Location = new Point(72, 88);
-            dataGridView19.Name = "dataGridView19";
-            dataGridView19.Size = new Size(637, 150);
-            dataGridView19.TabIndex = 2;
+            txtContactoProveedores.Location = new Point(370, 208);
+            txtContactoProveedores.Name = "txtContactoProveedores";
+            txtContactoProveedores.Size = new Size(237, 23);
+            txtContactoProveedores.TabIndex = 35;
+
             // 
             // label45
             // 
             label45.AutoSize = true;
-            label45.Location = new Point(320, 45);
+
+            label45.Location = new Point(232, 216);
             label45.Name = "label45";
-            label45.Size = new Size(161, 15);
-            label45.TabIndex = 0;
-            label45.Text = "Actualizar productos pedidos";
+            label45.Size = new Size(56, 15);
+            label45.TabIndex = 34;
+            label45.Text = "Contacto";
             // 
-            // dataGridView20
+            // txtNombreProveedores
             // 
-            dataGridView20.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView20.Location = new Point(87, 88);
-            dataGridView20.Name = "dataGridView20";
-            dataGridView20.Size = new Size(634, 150);
-            dataGridView20.TabIndex = 1;
-            // 
-            // button16
-            // 
-            button16.Location = new Point(355, 268);
-            button16.Name = "button16";
-            button16.Size = new Size(75, 23);
-            button16.TabIndex = 2;
-            button16.Text = "Actualizar";
-            button16.UseVisualStyleBackColor = true;
+            txtNombreProveedores.Location = new Point(370, 151);
+            txtNombreProveedores.Name = "txtNombreProveedores";
+            txtNombreProveedores.Size = new Size(237, 23);
+            txtNombreProveedores.TabIndex = 33;
+
             // 
             // label46
             // 
             label46.AutoSize = true;
-            label46.Location = new Point(340, 39);
+            label46.Location = new Point(232, 159);
             label46.Name = "label46";
-            label46.Size = new Size(104, 15);
-            label46.TabIndex = 0;
-            label46.Text = "Actualizar pedidos";
+            label46.Size = new Size(51, 15);
+            label46.TabIndex = 32;
+            label46.Text = "Nombre";
             // 
-            // dataGridView21
+            // txtProveedorIdProveedores
             // 
-            dataGridView21.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView21.Location = new Point(73, 95);
-            dataGridView21.Name = "dataGridView21";
-            dataGridView21.Size = new Size(655, 150);
-            dataGridView21.TabIndex = 1;
-            // 
-            // button17
-            // 
-            button17.Location = new Point(359, 278);
-            button17.Name = "button17";
-            button17.Size = new Size(75, 23);
-            button17.TabIndex = 2;
-            button17.Text = "Actualizar";
-            button17.UseVisualStyleBackColor = true;
+            txtProveedorIdProveedores.Location = new Point(370, 97);
+            txtProveedorIdProveedores.Name = "txtProveedorIdProveedores";
+            txtProveedorIdProveedores.Size = new Size(100, 23);
+            txtProveedorIdProveedores.TabIndex = 31;
+
             // 
             // label47
             // 
             label47.AutoSize = true;
-            label47.Location = new Point(332, 41);
+
+            label47.Location = new Point(232, 105);
             label47.Name = "label47";
-            label47.Size = new Size(127, 15);
-            label47.TabIndex = 0;
-            label47.Text = "Actualizar proveedores";
+            label47.Size = new Size(75, 15);
+            label47.TabIndex = 30;
+            label47.Text = "Proveedor ID";
             // 
-            // dataGridView22
+            // btnCrearProveedores
             // 
-            dataGridView22.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView22.Location = new Point(144, 85);
-            dataGridView22.Name = "dataGridView22";
-            dataGridView22.Size = new Size(525, 150);
-            dataGridView22.TabIndex = 1;
-            // 
-            // Actualizar
-            // 
-            Actualizar.Location = new Point(363, 264);
-            Actualizar.Name = "Actualizar";
-            Actualizar.Size = new Size(75, 23);
-            Actualizar.TabIndex = 2;
-            Actualizar.Text = "Actualizar";
-            Actualizar.UseVisualStyleBackColor = true;
+            btnCrearProveedores.Location = new Point(532, 273);
+            btnCrearProveedores.Name = "btnCrearProveedores";
+            btnCrearProveedores.Size = new Size(75, 23);
+            btnCrearProveedores.TabIndex = 29;
+            btnCrearProveedores.Text = "Crear";
+            btnCrearProveedores.UseVisualStyleBackColor = true;
+
             // 
             // formInterfaz
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(899, 590);
+            Controls.Add(cmbCiudad);
             Controls.Add(tabControlCRUD);
             Controls.Add(labelTitulo);
             Name = "formInterfaz";
@@ -1907,26 +2221,35 @@
             Load += formInterfaz_Load;
             tabControlCRUD.ResumeLayout(false);
             tabPage1.ResumeLayout(false);
-            tabControl2.ResumeLayout(false);
-            tabPage3.ResumeLayout(false);
-            tabPage3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
-            tabPage4.ResumeLayout(false);
-            tabPage4.PerformLayout();
+            tcTablas.ResumeLayout(false);
+            tpSucursales.ResumeLayout(false);
+            tpSucursales.PerformLayout();
+            tpEmpleados.ResumeLayout(false);
+            tpEmpleados.PerformLayout();
+            tpFacturas.ResumeLayout(false);
+            tpFacturas.PerformLayout();
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
-            tabPage10.ResumeLayout(false);
-            tabPage10.PerformLayout();
+            tpClientes.ResumeLayout(false);
+            tpClientes.PerformLayout();
             panel2.ResumeLayout(false);
             panel2.PerformLayout();
-            tabPage11.ResumeLayout(false);
-            tabPage11.PerformLayout();
+            tpProductosFacturas.ResumeLayout(false);
+            tpProductosFacturas.PerformLayout();
             panel3.ResumeLayout(false);
             panel3.PerformLayout();
-            tabPage13.ResumeLayout(false);
-            tabPage13.PerformLayout();
+            tpProductos.ResumeLayout(false);
+            tpProductos.PerformLayout();
             panel5.ResumeLayout(false);
             panel5.PerformLayout();
+            tpCategorias.ResumeLayout(false);
+            tpCategorias.PerformLayout();
+            tpProductosPedidos.ResumeLayout(false);
+            tpProductosPedidos.PerformLayout();
+            tpPedidos.ResumeLayout(false);
+            tpPedidos.PerformLayout();
+            tpProveedores.ResumeLayout(false);
+            tpProveedores.PerformLayout();
             tabPage2.ResumeLayout(false);
             tabControl1.ResumeLayout(false);
             tabPage5.ResumeLayout(false);
@@ -2008,38 +2331,94 @@
         private TabControl tabControlCRUD;
         private TabPage tabPage1;
         private TabPage tabPage2;
-        private TabControl tabControl2;
-        private TabPage tabPage3;
-        private TabPage tabPage4;
-        private TabPage tabPage11;
-        private TabPage tabPage13;
+        private TabControl tcTablas;
+        private TabPage tpSucursales;
+        private TabPage tpCategorias;
+        private TabPage tpProductosPedidos;
+        private TabPage tpPedidos;
+        private TabPage tpProveedores;
+        private TextBox txtNombreSucursales;
+        private Label lblNombreSucursales;
+        private TextBox txtSucursalIdSucursales;
+        private Label lblIdSucursalSucursales;
+        private TextBox txtCiudadSucursales;
+        private Label lblCiudadSucursales;
+        private TextBox txtDireccionSucursales;
+        private Label lblDireccionSucursales;
+        private TextBox txtSucursalIdEmpleados;
+        private Label lblIdSucursalEmpleados;
+        private TextBox txtCargoEmpleados;
+        private Label lblCargoEmpleados;
+        private TextBox txtNombreEmpleados;
+        private Label lblNombreEmpleados;
+        private TextBox txtEmpleadoIdEmpleados;
+        private Label lblIdEmpleadoEmpleados;
+        private Button btnCrearEmpleados;
+        private TextBox txtTelefonoClientes;
+        private TextBox txtClienteIdClientes;
+        private Label label1;
+        private Button btnCrearClientes;
+        private TextBox txtCorreoClientes;
+        private Label label4;
+        private Label label2;
+        private Label label3;
+        private TextBox txtNombreClientes;
+        private TextBox txtNombreCategorias;
+        private Label label5;
+        private TextBox txtCategoriaIdCategorias;
+        private Label label6;
+        private Button btnCrearCategorias;
+        private TextBox txtCantidadProductoProductosPedidos;
+        private Label label7;
+        private TextBox txtProductoIdProductosPedidos;
+        private Label label8;
+        private TextBox txtPedidoIdProductosPedidos;
+        private Label label16;
+        private TextBox txtItemIdProductosPedidos;
+        private Label label17;
+        private Button btnCrearProductosPedidos;
+        private TextBox txtProveedorIdPedidos;
+        private Label label18;
+        private TextBox txtTotalPedidos;
+        private Label label19;
+        private TextBox txtFechaPedidos;
+        private Label label42;
+        private TextBox txtPedidoIdPedidos;
+        private Label label43;
+        private Button btnCrearPedidos;
+        private TextBox txtContactoProveedores;
+        private Label label45;
+        private TextBox txtNombreProveedores;
+        private Label label46;
+        private TextBox txtProveedorIdProveedores;
+        private Label label47;
+        private Button btnCrearProveedores;
+        private TabPage tpFacturas;
+        private TabPage tpProductosFacturas;
+        private TabPage tpProductos;
         private TabPage tabPage7;
         private TabPage tabPage8;
         private TabPage tabPage9;
-        private Label label1;
-        private DataGridView dataGridView1;
         private Panel panel1;
-        private Label label2;
-        private Button buttonPago;
-        private TextBox tBoxFactura;
-        private Label label3;
-        private Label label5;
-        private TextBox textBox4;
-        private TextBox textBox3;
-        private TextBox textBox2;
-        private TextBox textBox1;
-        private Label label4;
-        private Label label8;
-        private Label label7;
-        private Label label6;
-        private TextBox textBox5;
+        private Label lblFacturas;
+        private Button btnCrearFacturas;
+        private TextBox txtFacturaIdFacturas;
+        private Label lblFacturaIdFacturas;
+        private Label lblTotalFacturas;
+        private TextBox txtEmpleadoIdFacturas;
+        private TextBox txtClienteIdFacturas;
+        private TextBox txtTotalFacturas;
+        private TextBox txtFechaFacturas;
+        private Label lblFechaFacturas;
+        private Label lblSucursalIdFacturas;
+        private Label lblEmpleadoIdFacturas;
+        private Label lblClienteIdFacturas;
+        private TextBox txtSucursalIdFacturas;
         private Panel panel3;
-        private TextBox textBox11;
-        private TextBox textBox10;
-        private TextBox textBox9;
-        private TextBox textBox8;
-        private Button button2;
-        private Label label16;
+        private TextBox txtFacturaIdProductosFacturas;
+        private TextBox txtProductoIdProductosFacturas;
+        private TextBox txtItemIdProductosFacturas;
+        private Button btnCrearProductosFacturas;
         private Label label15;
         private Label label14;
         private Label label13;
@@ -2052,13 +2431,13 @@
         private Label label23;
         private Label label22;
         private Label label21;
-        private Button button4;
-        private TextBox textBox20;
-        private TextBox textBox19;
-        private TextBox textBox18;
-        private TextBox textBox16;
-        private TextBox textBox15;
-        private TextBox textBox14;
+        private Button btnCrearProductos;
+        private TextBox txtProductosIdProductos;
+        private TextBox txtStockProductos;
+        private TextBox txtCategoriaIdProductos;
+        private TextBox txtPrecioProductos;
+        private TextBox txtNombreProductos;
+        private TextBox txtProductoIdProductos;
         private TabControl tabControl1;
         private TabPage tabPage5;
         private Button button5;
@@ -2076,14 +2455,9 @@
         private Button button9;
         private DataGridView dataGridView6;
         private Label label32;
-        private TabPage tabPage10;
-        private Label label17;
+        private TabPage tpClientes;
+        private Label lblClientesClientes;
         private Panel panel2;
-        private TextBox textBox13;
-        private TextBox textBox12;
-        private Button button3;
-        private Label label19;
-        private Label label18;
         private Label label9;
         private Label label10;
         private Label label11;
@@ -2147,29 +2521,10 @@
         private RadioButton radioButton17;
         private RadioButton radioButton16;
         private Label label36;
-        private TabPage tabPage15;
-        private Button button8;
-        private DataGridView dataGridView17;
-        private Label label42;
-        private TabPage tabPage20;
-        private Button button13;
-        private DataGridView dataGridView18;
-        private Label label43;
-        private TabPage tabPage26;
-        private DataGridView dataGridView19;
-        private Label label44;
-        private Button button15;
-        private TabPage tabPage28;
-        private Label label45;
-        private TabPage tabPage29;
-        private TabPage tabPage30;
-        private Button button16;
-        private DataGridView dataGridView20;
-        private Button button17;
-        private DataGridView dataGridView21;
-        private Label label46;
-        private Button Actualizar;
-        private DataGridView dataGridView22;
-        private Label label47;
+
+        private Button btnCrearSucursales;
+        private ComboBox cmbCiudad;
+        private TabPage tpEmpleados;
+
     }
 }
