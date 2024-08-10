@@ -33,7 +33,6 @@
             tabPage1 = new TabPage();
             tabControl2 = new TabControl();
             tabPage3 = new TabPage();
-            button8 = new Button();
             label1 = new Label();
             dataGridView1 = new DataGridView();
             tabPage4 = new TabPage();
@@ -274,7 +273,6 @@
             // 
             // tabPage3
             // 
-            tabPage3.Controls.Add(button8);
             tabPage3.Controls.Add(label1);
             tabPage3.Controls.Add(dataGridView1);
             tabPage3.Location = new Point(4, 24);
@@ -284,16 +282,6 @@
             tabPage3.TabIndex = 0;
             tabPage3.Text = "Tienda";
             tabPage3.UseVisualStyleBackColor = true;
-            // 
-            // button8
-            // 
-            button8.Location = new Point(335, 295);
-            button8.Name = "button8";
-            button8.Size = new Size(75, 23);
-            button8.TabIndex = 2;
-            button8.Text = "conectar";
-            button8.UseVisualStyleBackColor = true;
-            button8.Click += button8_Click;
             // 
             // label1
             // 
@@ -1871,6 +1859,5 @@
         private RadioButton radioButton17;
         private RadioButton radioButton16;
         private Label label36;
-        private Button button8;
     }
 }
