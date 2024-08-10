@@ -13,8 +13,7 @@ namespace bases_dist
 {
     public partial class formInterfaz : Form
     {
-        //string DataSource = "(DESCRIPTION = (ADDRESS_LIST = (ADDRESS = (PROTOCOL = TCP)(HOST = localhost)(PORT = 1521))) (CONNECT_DATA = (SERVER = DEDICATED) (SERVICE_NAME = orcl)))";
-        OracleConnection conn = new OracleConnection($"DATA SOURCE=(DESCRIPTION = (ADDRESS_LIST = (ADDRESS = (PROTOCOL = TCP)(HOST = localhost)(PORT = 1521))) (CONNECT_DATA = (SERVER = DEDICATED) (SERVICE_NAME = orcl))); USER ID=ORA1; PASSWORD=ORACLE; CONNECTION TIMEOUT=120;");
+        OracleConnection conn = new OracleConnection("DATA SOURCE=(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=lenovoflex)(PORT=1521)))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=orcl))); USER ID=ORA1; PASSWORD=ORACLE;");
 
         public formInterfaz()
         {
@@ -23,9 +22,28 @@ namespace bases_dist
 
         private void formInterfaz_Load(object sender, EventArgs e)
         {
-
+            LoadData();
         }
 
+        private void LoadData()
+        {
+            using (conn)
+            {
+                try
+                {
+                    conn.Open();
+                    string query = "SELECT * FROM COUNTRIES";
+                    OracleDataAdapter adapter = new OracleDataAdapter(query, conn);
+                    DataTable dataTable = new DataTable();
+                    adapter.Fill(dataTable);
+                    dataGridView1.DataSource = dataTable;
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Error: " + ex.Message);
+                }
+            }
+        }
 
 
         private void buttonPago_Click(object sender, EventArgs e)
@@ -38,17 +56,5 @@ namespace bases_dist
 
         }
 
-        private void button8_Click(object sender, EventArgs e)
-        {
-            try
-            {
-                conn.Open();
-                MessageBox.Show("conectado");
-            }
-            catch
-            {
-                MessageBox.Show("no conectado :(");
-            }
-        }
     }
 }

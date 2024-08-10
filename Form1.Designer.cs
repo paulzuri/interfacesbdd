@@ -53,6 +53,7 @@
             lblIdEmpleadoEmpleados = new Label();
             btnCrearEmpleados = new Button();
             tpFacturas = new TabPage();
+
             panel1 = new Panel();
             txtSucursalIdFacturas = new TextBox();
             lblSucursalIdFacturas = new Label();
@@ -185,6 +186,7 @@
             textBox6 = new TextBox();
             textBox7 = new TextBox();
             button1 = new Button();
+
             cmbCiudad = new ComboBox();
             txtTelefonoClientes = new TextBox();
             label1 = new Label();
@@ -225,6 +227,7 @@
             txtProveedorIdProveedores = new TextBox();
             label47 = new Label();
             btnCrearProveedores = new Button();
+
             tabControlCRUD.SuspendLayout();
             tabPage1.SuspendLayout();
             tcTablas.SuspendLayout();
@@ -280,6 +283,18 @@
             ((System.ComponentModel.ISupportInitialize)dataGridView5).BeginInit();
             tabPage9.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dataGridView11).BeginInit();
+            tabPage15.SuspendLayout();
+            tabPage20.SuspendLayout();
+            tabPage26.SuspendLayout();
+            tabPage28.SuspendLayout();
+            tabPage29.SuspendLayout();
+            tabPage30.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)dataGridView17).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)dataGridView18).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)dataGridView19).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)dataGridView20).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)dataGridView21).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)dataGridView22).BeginInit();
             SuspendLayout();
             // 
             // labelTitulo
@@ -316,6 +331,7 @@
             tabPage1.Text = "Crear";
             tabPage1.UseVisualStyleBackColor = true;
             // 
+
             // tcTablas
             // 
             tcTablas.Controls.Add(tpSucursales);
@@ -529,6 +545,7 @@
             tpFacturas.TabIndex = 1;
             tpFacturas.Text = "Facturas";
             tpFacturas.UseVisualStyleBackColor = true;
+
             // 
             // panel1
             // 
@@ -1034,6 +1051,12 @@
             tabControl1.Controls.Add(tabPage6);
             tabControl1.Controls.Add(tabPage14);
             tabControl1.Controls.Add(tabPage16);
+            tabControl1.Controls.Add(tabPage15);
+            tabControl1.Controls.Add(tabPage20);
+            tabControl1.Controls.Add(tabPage26);
+            tabControl1.Controls.Add(tabPage28);
+            tabControl1.Controls.Add(tabPage29);
+            tabControl1.Controls.Add(tabPage30);
             tabControl1.Location = new Point(28, 33);
             tabControl1.Name = "tabControl1";
             tabControl1.SelectedIndex = 0;
@@ -1050,7 +1073,7 @@
             tabPage5.Padding = new Padding(3);
             tabPage5.Size = new Size(788, 408);
             tabPage5.TabIndex = 0;
-            tabPage5.Text = "Tienda";
+            tabPage5.Text = "Sucursales";
             tabPage5.UseVisualStyleBackColor = true;
             // 
             // button5
@@ -1059,17 +1082,17 @@
             button5.Name = "button5";
             button5.Size = new Size(176, 23);
             button5.TabIndex = 2;
-            button5.Text = "Actualizar tienda";
+            button5.Text = "Actualizar";
             button5.UseVisualStyleBackColor = true;
             // 
             // label28
             // 
             label28.AutoSize = true;
-            label28.Location = new Point(301, 43);
+            label28.Location = new Point(328, 44);
             label28.Name = "label28";
-            label28.Size = new Size(163, 15);
+            label28.Size = new Size(116, 15);
             label28.TabIndex = 1;
-            label28.Text = "Actualizar la tienda 1 (master)";
+            label28.Text = "Actualizar sucursales";
             // 
             // dataGridView2
             // 
@@ -1089,7 +1112,7 @@
             tabPage6.Padding = new Padding(3);
             tabPage6.Size = new Size(788, 408);
             tabPage6.TabIndex = 1;
-            tabPage6.Text = "Pago";
+            tabPage6.Text = "Empleados";
             tabPage6.UseVisualStyleBackColor = true;
             // 
             // button6
@@ -1098,7 +1121,7 @@
             button6.Name = "button6";
             button6.Size = new Size(156, 23);
             button6.TabIndex = 2;
-            button6.Text = "Actualizar pago";
+            button6.Text = "Actualizar empleados";
             button6.UseVisualStyleBackColor = true;
             // 
             // dataGridView3
@@ -1112,11 +1135,11 @@
             // label29
             // 
             label29.AutoSize = true;
-            label29.Location = new Point(253, 47);
+            label29.Location = new Point(324, 44);
             label29.Name = "label29";
-            label29.Size = new Size(221, 15);
+            label29.Size = new Size(120, 15);
             label29.TabIndex = 0;
-            label29.Text = "Actualizar el pago de la tienda 1 (master)";
+            label29.Text = "Actualizar empleados";
             // 
             // tabPage14
             // 
@@ -1127,7 +1150,7 @@
             tabPage14.Name = "tabPage14";
             tabPage14.Size = new Size(788, 408);
             tabPage14.TabIndex = 2;
-            tabPage14.Text = "Producto";
+            tabPage14.Text = "Facturas";
             tabPage14.UseVisualStyleBackColor = true;
             // 
             // button7
@@ -1136,7 +1159,7 @@
             button7.Name = "button7";
             button7.Size = new Size(179, 23);
             button7.TabIndex = 2;
-            button7.Text = "Actualizar producto";
+            button7.Text = "Actualizar";
             button7.UseVisualStyleBackColor = true;
             // 
             // dataGridView4
@@ -1150,11 +1173,11 @@
             // label30
             // 
             label30.AutoSize = true;
-            label30.Location = new Point(274, 32);
+            label30.Location = new Point(340, 35);
             label30.Name = "label30";
-            label30.Size = new Size(254, 15);
+            label30.Size = new Size(104, 15);
             label30.TabIndex = 0;
-            label30.Text = "Actualizar los productos de la tienda 1 (master)";
+            label30.Text = "Actualizar facturas";
             // 
             // tabPage16
             // 
@@ -1165,16 +1188,16 @@
             tabPage16.Name = "tabPage16";
             tabPage16.Size = new Size(788, 408);
             tabPage16.TabIndex = 4;
-            tabPage16.Text = "Orden";
+            tabPage16.Text = "Clientes";
             tabPage16.UseVisualStyleBackColor = true;
             // 
             // button9
             // 
-            button9.Location = new Point(327, 326);
+            button9.Location = new Point(317, 262);
             button9.Name = "button9";
             button9.Size = new Size(150, 23);
             button9.TabIndex = 2;
-            button9.Text = "Actualizar orden";
+            button9.Text = "Actualizar clientes";
             button9.UseVisualStyleBackColor = true;
             // 
             // dataGridView6
@@ -1188,11 +1211,11 @@
             // label32
             // 
             label32.AutoSize = true;
-            label32.Location = new Point(236, 34);
+            label32.Location = new Point(342, 38);
             label32.Name = "label32";
-            label32.Size = new Size(241, 15);
+            label32.Size = new Size(102, 15);
             label32.TabIndex = 0;
-            label32.Text = "Actualizar las órdenes de la tienda 1 (master)";
+            label32.Text = "Actualizar clientes";
             // 
             // tabPage7
             // 
@@ -2128,10 +2151,12 @@
             txtContactoProveedores.Name = "txtContactoProveedores";
             txtContactoProveedores.Size = new Size(237, 23);
             txtContactoProveedores.TabIndex = 35;
+
             // 
             // label45
             // 
             label45.AutoSize = true;
+
             label45.Location = new Point(232, 216);
             label45.Name = "label45";
             label45.Size = new Size(56, 15);
@@ -2144,6 +2169,7 @@
             txtNombreProveedores.Name = "txtNombreProveedores";
             txtNombreProveedores.Size = new Size(237, 23);
             txtNombreProveedores.TabIndex = 33;
+
             // 
             // label46
             // 
@@ -2160,10 +2186,12 @@
             txtProveedorIdProveedores.Name = "txtProveedorIdProveedores";
             txtProveedorIdProveedores.Size = new Size(100, 23);
             txtProveedorIdProveedores.TabIndex = 31;
+
             // 
             // label47
             // 
             label47.AutoSize = true;
+
             label47.Location = new Point(232, 105);
             label47.Name = "label47";
             label47.Size = new Size(75, 15);
@@ -2178,6 +2206,7 @@
             btnCrearProveedores.TabIndex = 29;
             btnCrearProveedores.Text = "Crear";
             btnCrearProveedores.UseVisualStyleBackColor = true;
+
             // 
             // formInterfaz
             // 
@@ -2274,6 +2303,24 @@
             tabPage9.ResumeLayout(false);
             tabPage9.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)dataGridView11).EndInit();
+            tabPage15.ResumeLayout(false);
+            tabPage15.PerformLayout();
+            tabPage20.ResumeLayout(false);
+            tabPage20.PerformLayout();
+            tabPage26.ResumeLayout(false);
+            tabPage26.PerformLayout();
+            tabPage28.ResumeLayout(false);
+            tabPage28.PerformLayout();
+            tabPage29.ResumeLayout(false);
+            tabPage29.PerformLayout();
+            tabPage30.ResumeLayout(false);
+            tabPage30.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)dataGridView17).EndInit();
+            ((System.ComponentModel.ISupportInitialize)dataGridView18).EndInit();
+            ((System.ComponentModel.ISupportInitialize)dataGridView19).EndInit();
+            ((System.ComponentModel.ISupportInitialize)dataGridView20).EndInit();
+            ((System.ComponentModel.ISupportInitialize)dataGridView21).EndInit();
+            ((System.ComponentModel.ISupportInitialize)dataGridView22).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -2474,8 +2521,10 @@
         private RadioButton radioButton17;
         private RadioButton radioButton16;
         private Label label36;
+
         private Button btnCrearSucursales;
         private ComboBox cmbCiudad;
         private TabPage tpEmpleados;
+
     }
 }
